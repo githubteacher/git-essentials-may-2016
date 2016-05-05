@@ -16,6 +16,6 @@
  - phoneix park
  - stephens green
 
-### Things to do
+### Fun things to do
  - book of kells
  - dead zoo

@@ -2,4 +2,8 @@
 
 ###Places to Eat
 
-##Fun things to do
+-Doyle's Bar has a great food.
+
+###Fun things to do
+
+-Visit the Guinness Storehouse.

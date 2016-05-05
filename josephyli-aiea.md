@@ -6,3 +6,5 @@
 - Aloha Stadium (swap meet anyone?)
 
 ### Fun things to do
+- bowling
+- hike the Aiea Trail Loop (6 miles)

@@ -1,4 +1,4 @@
-### Urbana Champaign, Illinois
+## Urbana Champaign, Illinois
 
 ### Places to Eat
 

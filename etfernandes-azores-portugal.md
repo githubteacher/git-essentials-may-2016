@@ -2,4 +2,8 @@
 
 ### Places to eat
 
-## Fun things to do
+-Galego has some nice steaks
+
+### Fun things to do
+
+-Wale watching

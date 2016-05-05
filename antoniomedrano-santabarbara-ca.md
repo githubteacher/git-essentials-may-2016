@@ -1,5 +1,5 @@
 ## Santa Barbara, CA
 
-## Something else
+### Places to eat
 
-## Something else as well
+### Things to do

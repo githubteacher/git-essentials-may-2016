@@ -15,3 +15,7 @@
  - guiness store house
  - phoneix park
  - stephens green
+
+### Things to do
+ - book of kells
+ - dead zoo

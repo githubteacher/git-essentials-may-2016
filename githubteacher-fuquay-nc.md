@@ -6,3 +6,5 @@
 - Try Dame's Chicken and Waffles in Durham (yummm...)
 
 ### Fun things to do
+
+- Go hiking at Raven Rock or Umstead

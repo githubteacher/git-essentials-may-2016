@@ -1,5 +1,5 @@
 ## Dublin, Ireland.
 
-##Places to Eat
+###Places to Eat
 
 ##Fun things to do

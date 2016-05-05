@@ -6,3 +6,5 @@
 - O'Brothers is a great place for having a beer
 
 ### Fun things to do
+
+- Long walks in the parks

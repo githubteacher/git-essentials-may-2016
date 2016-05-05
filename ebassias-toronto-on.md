@@ -10,4 +10,5 @@ Whole bunch of clubs, bars, 1 strip joint. retaurantes. Recommend Keg
 Site Seeing
 CN Tower
 Casa Loma
-
+Ripleys
+A basebal game at the Rogers centre

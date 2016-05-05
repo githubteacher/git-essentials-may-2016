@@ -1,5 +1,5 @@
 ## Azores, Portugal
 
-## Places to eat
+### Places to eat
 
 ## Fun things to do

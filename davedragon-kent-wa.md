@@ -1,5 +1,8 @@
-## Kent, WA
+## THIS IS A TEST
 
 ## Places to Eat
 
-## Places to Explore
+## PLACES TO EAT
+RedRobin
+
+## PLACES TO VISIT

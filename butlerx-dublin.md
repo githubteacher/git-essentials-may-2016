@@ -6,7 +6,7 @@
  - boojum
  - brew dock
  - foodie
- - hx46
+ - hx46 cafe
 
 ### Places to visit
  - howth

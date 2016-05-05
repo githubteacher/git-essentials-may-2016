@@ -1,1 +1,11 @@
-This is my file for Fort Wayne, Indiana
+## Fort Wayne, Indiana
+
+### Places to Eat
+	Sara Family Restaurant 
+	Chili
+	Red Robin
+
+### Places to Go
+	TinCaps baseball
+	Children's Zoo
+	Headwater's Park

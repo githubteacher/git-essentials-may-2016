@@ -5,3 +5,5 @@
 - Ayutla Mexican Restaurant
 
 ### Things to do
+
+- Goldendale observatory - great dark sky country

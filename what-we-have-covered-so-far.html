@@ -1,0 +1,1192 @@
+<html>
+<head>
+<style>
+
+@font-face {
+  font-family: octicons-link;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline-width: 0;
+}
+
+.markdown-body strong {
+  font-weight: inherit;
+}
+
+.markdown-body strong {
+  font-weight: bolder;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border-style: none;
+}
+
+.markdown-body svg:not(:root) {
+  overflow: hidden;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body input {
+  overflow: visible;
+}
+
+.markdown-body button:-moz-focusring,
+.markdown-body [type="button"]:-moz-focusring,
+.markdown-body [type="reset"]:-moz-focusring,
+.markdown-body [type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+.markdown-body [type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body * {
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body .pl-0 {
+  padding-left: 0 !important;
+}
+
+.markdown-body .pl-1 {
+  padding-left: 3px !important;
+}
+
+.markdown-body .pl-2 {
+  padding-left: 6px !important;
+}
+
+.markdown-body .pl-3 {
+  padding-left: 12px !important;
+}
+
+.markdown-body .pl-4 {
+  padding-left: 24px !important;
+}
+
+.markdown-body .pl-5 {
+  padding-left: 36px !important;
+}
+
+.markdown-body .pl-6 {
+  padding-left: 48px !important;
+}
+
+.markdown-body .form-select::-ms-expand {
+  opacity: 0;
+}
+
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .anchor {
+  display: inline-block;
+  padding-right: 2px;
+  margin-left: -18px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #000;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h1 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h3 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h5 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body h6 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .pl-c {
+  color: #969896;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #0086b3;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #333;
+}
+
+.markdown-body .pl-ent {
+  color: #63a35c;
+}
+
+.markdown-body .pl-k {
+  color: #a71d5d;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #183691;
+}
+
+.markdown-body .pl-v {
+  color: #ed6a43;
+}
+
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+.markdown-body .pl-ml {
+  color: #693a17;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mq {
+  color: #008080;
+}
+
+.markdown-body .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .full-commit .btn-outline:not(:disabled):hover {
+  color: #4078c0;
+  border: 1px solid #4078c0;
+}
+
+.markdown-body :checked+.radio-label {
+  position: relative;
+  z-index: 1;
+  border-color: #4078c0;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  vertical-align: text-top;
+  fill: currentColor;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 0.2em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body hr {
+  border-bottom-color: #eee;
+}
+    .markdown-body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 45px;
+    }
+</style>
+</head>
+<body class="markdown-body">
+<div class="chat-item__container">
+  <div class="chat-item__content">
+    <div class="chat-item__text js-chat-item-text"><h2>What we've covered so far</h2>
+<h4><em>Getting Ready for Class</em></h4>
+<ul>
+<li>Make sure you have a <a href="https://github.com" rel="nofollow" target="_blank" class="link">github.com</a> account</li>
+</ul>
+<h4><em>Getting Started</em></h4>
+<ul>
+<li>Git is a decentralized version control system. We read more about that <a href="https://git-scm.com/book/en/v2/Getting-Started-Git-Basics" rel="nofollow" target="_blank" class="link">here</a></li>
+<li>Make sure you have Git installed locally, version 1.9 or higher<ul>
+<li>Windows: <a href="https://desktop.github.com/" rel="nofollow" target="_blank" class="link">GitHub Desktop</a></li>
+<li>Mac/Linux: <a href="https://git-scm.com/" rel="nofollow" target="_blank" class="link">Git Scm</a></li>
+</ul>
+</li>
+<li>Check your Git version with <code>git --version</code>   </li>
+</ul>
+<h4><em>Configure Git</em></h4>
+<ul>
+<li>Git has three levels of configuration: <code>--system</code>, <code>--global</code>, and <code>--local</code>. We'll use <code>--global</code> today. </li>
+<li>Type the following configurations<ul>
+<li><code>git config --global user.name "Your Actual Name"</code></li>
+<li><code>git config --global user.email "youractual@email.com"</code></li>
+<li>Windows: <code>git config --global core.autocrlf true</code></li>
+<li>Mac/Linux: <code>git config --global core.autocrlf input</code></li>
+<li>Optional text editor:<ul>
+<li>If you have atom as a text editor: <code>git config --global core.editor "atom --wait"</code></li>
+<li>Get help with other text editors <a href="https://help.github.com/articles/associating-text-editors-with-git/" rel="nofollow" target="_blank" class="link">here</a></li>
+</ul>
+</li>
+<li><code>git config --global push.default</code>  </li>
+</ul>
+</li>
+</ul>
+<h4><em>Working-locally.adoc</em></h4>
+<ul>
+<li>CD into a place where you are comfortable creating a new file</li>
+<li>Create a new repository locally: <code>git init git-essentials</code></li>
+<li>CD into your new repository: <code>cd git-essentials</code></li>
+<li>View all files within the new repository: <code>ls -al</code></li>
+<li>See your current file status with <code>git status</code></li>
+<li>Create a new README file: <code>touch README.md</code></li>
+<li>Add some material: <code>echo "This is some content" &gt;&gt; README.md</code></li>
+<li>Verify what's in your readme: <code>cat README.md</code></li>
+<li>See what's changed: <code>git status</code></li>
+<li>Stage the file with <code>git add README.md</code></li>
+<li>Commit the file with: <code>git commit</code><ul>
+<li>If your text editor default is configured, your text editor will open and you can create your commit message there. Type your message, save, and close the editor.</li>
+<li>If your defaults aren't configured, you may get an error. No worries! Type: <code>git commit -m "Enter commit message here"</code>  </li>
+</ul>
+</li>
+</ul>
+<h4><em>Git Flow</em></h4>
+<ul>
+<li>We discuss the Git and GitHub workflow using <a href="https://guides.github.com/introduction/flow/" rel="nofollow" target="_blank" class="link">GitHub Guides</a><ul>
+<li>Branch<ul>
+<li>Create an exact copy of the project where you can work on a new feature that will later be merged in</li>
+<li>It's good practice to make all commits on branches other than master</li>
+<li>View current local branches: <code>git branch</code></li>
+<li>Create new branch: <code>git branch branch-name</code></li>
+<li>Move to that branch to work: <code>git checkout branch-name</code></li>
+<li>Open the README.md file on your branch, make and save changes</li>
+<li>See state of files: <code>git status</code></li>
+</ul>
+</li>
+<li>Two-Stage commit <ul>
+<li>Stage all files for the commit: <code>git add .</code></li>
+<li><code>git status</code></li>
+<li>Commit the changes with <code>git commit -m "Enter commit message here"</code></li>
+<li>See history of commits: <code>git log</code>, <code>git log --stat</code>, <code>git log --patch</code>, <code>git log --oneline</code><ul>
+<li><a href="https://git-scm.com/docs/git-log" rel="nofollow" target="_blank" class="link">More info here</a></li>
+</ul>
+</li>
+<li>Set an alias for our favorite way to view history:  <code>git config --global alias.lol "log --oneline --graph --decorate --all"</code></li>
+<li><code>git lol</code></li>
+</ul>
+</li>
+<li>Practice the Two Stage Commit on another branch (Note: We are only commiting to as an example, it is considered bad practice in common workflows.)<ul>
+<li>Checkout to master: <code>git checkout master</code></li>
+<li>Create a file: <code>touch file1.md</code></li>
+<li>See <code>git status</code></li>
+<li>Add the file to staging: <code>git add file1.md</code></li>
+<li>git status</li>
+<li><code>git commit -m "adding blank file 1"</code></li>
+<li><code>git lol</code></li>
+</ul>
+</li>
+<li>Merge the branch<ul>
+<li><code>git merge update-readme</code></li>
+<li><code>git lol</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+  </div>
+</div>
+<div class="chat-item__container">
+  <div class="chat-item__content">
+    <div class="chat-item__text js-chat-item-text"><h4><em>More Collaborating</em></h4>
+<ul>
+<li>Update your local repository<ul>
+<li>View all branches, even remote: <code>git branch --all</code></li>
+<li>Move to master: <code>git checkout master</code></li>
+<li>Fetch changes from remote: <code>git fetch</code></li>
+<li>Merge those changes into your own local repository: <code>git merge</code></li>
+<li>Combine those tasks with: <code>git pull</code></li>
+</ul>
+</li>
+<li>Let's fill out more of our own documents<ul>
+<li>Open your document within your own branch</li>
+<li>Add details about what to do &amp; where to eat</li>
+<li>Save &amp; close</li>
+<li>See where we are with <code>git status</code></li>
+<li>Two stage commit (<code>git add .</code> &amp; <code>git commit -m "commit message"</code>)</li>
+</ul>
+</li>
+<li>Patch<ul>
+<li>We want to make small, bite size commits - that's the workflow we suggest :+1: This isolates changes so if something goes wrong, we can easily troubleshoot.</li>
+<li>Separate changes: <code>git add -p</code></li>
+<li>Split them: <code>s</code></li>
+<li>Accept the default split: <code>y</code></li>
+<li>Do not stage the others in the same commit: <code>n</code></li>
+</ul>
+</li>
+<li>Commit and Push<ul>
+<li><code>git commit -m "message"</code></li>
+<li><code>git status</code></li>
+<li><code>git branch</code></li>
+<li><code>git merge branchname</code></li>
+<li><code>git push</code></li>
+<li>Uh oh, merge conflict!!!</li>
+<li><code>git pull</code></li>
+<li><code>git push</code></li>
+<li>Doing 'git pull' and 'git push' will not normally have to happen so many times: since there are so many of us doing this at once, continue with 'git pull' and 'git push' until it will go through.</li>
+</ul>
+</li>
+</ul>
+<h4><em>Helpful commands</em></h4>
+<ul>
+<li><code>git diff</code>: See local changes between working, staging, and history<ul>
+<li>If we have added more changes to a file that we've already created, we can see differences between them with <code>git diff</code></li>
+<li>Add to a file just for this example: <code>echo "Here is one line of text" &gt;&gt; file2.md</code></li>
+<li>See status: <code>git status</code></li>
+<li>Stage the file: <code>git add .</code></li>
+<li><code>git commit -m "commit message"</code></li>
+<li>See status: <code>git status</code></li>
+<li>Add more text: <code>echo "Here is another line of text" &gt;&gt; file2.md</code></li>
+<li>Stage: <code>git add .</code></li>
+<li>More text: <code>echo "Third line of text" &gt;&gt; file2.md</code></li>
+<li>See differences with <code>git diff</code><ul>
+<li><code>git diff</code></li>
+<li><code>git diff --staged</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>git revert</code>: Undo everything that happened in one specific commit<ul>
+<li><code>git revert &lt;first-5-characters-of-commit-sha&gt;</code></li>
+</ul>
+</li>
+</ul>
+</div>
+  </div>
+</div>
+<div class="chat-item__container">
+  <div class="chat-item__content">
+    <div class="chat-item__text js-chat-item-text"><h4>Create your own copy</h4>
+<ul>
+<li>Go to the <a href="https://github.com/githubschool/github-games" rel="nofollow" target="_blank" class="link">Github Games</a> repository</li>
+<li><code>gh-pages</code> is the default branch for this repository, not <code>master</code> like yesterday<ul>
+<li>When <code>gh-pages</code> is the default branch, you can see the code as a GitHub Pages site. This class's link is <a href="http://githubschool.github.io/github-games/" rel="nofollow" target="_blank" class="link">here</a></li>
+</ul>
+</li>
+<li>Create a new repository<ul>
+<li>You are the owner, and the repository name can be anything. Ours is <code>github-games</code>.</li>
+<li>Don't select any options, just click 'create repository'.</li>
+<li>Go back to the original repository, <a href="https://github.com/githubschool/github-games" rel="nofollow" target="_blank" class="link">Github Games</a> owned by 'GitHub School'</li>
+<li>To clone this locally, copy the 'clone url'. Go to the command line and clone: <code>git clone &lt;https-url-from-clipboard&gt;</code></li>
+</ul>
+</li>
+</ul>
+<h4>Make our changes</h4>
+<ul>
+<li>We need to change a link in the workflow.  </li>
+<li>Create a branch locally and checkout to that branch: <code>git checkout -b readme-updates</code>  </li>
+<li>See all branches: <code>git branch --all</code></li>
+<li>Open the README.md file from the <code>readme-updates</code> branch.</li>
+<li>Update the link in line 5 to replace "githubschool" with your own username. </li>
+<li>Check the status: <code>git status</code></li>
+<li>Two step commit:<ul>
+<li><code>git add FILENAME</code> or <code>git add -A</code>, then <code>git status</code> to check</li>
+<li><code>git commit -m "Enter commit message"</code></li>
+<li>Check the log: <code>git log --oneline --graph --decorate --all</code>, or use the alias from yesterday, <code>git lol</code></li>
+</ul>
+</li>
+</ul>
+<h4>Merge our changes to <code>gh-pages</code> branch</h4>
+<ul>
+<li>Check out to the branch that we are merging into: <code>git checkout gh-pages</code></li>
+<li>See log: <code>git lol</code></li>
+<li>Merge the <code>readme-update</code> branch: <code>git merge readme-updates</code></li>
+</ul>
+</div>
+  </div>
+</div>
+<div class="chat-item__container">
+  <div class="chat-item__content">
+    <div class="chat-item__text js-chat-item-text"><h2>Part 1 Recap:</h2>
+<h2>Practicing Open Source Workflows</h2>
+<h4>Create your own copy</h4>
+<ul>
+<li>Go to the <a href="https://github.com/githubschool/github-games" rel="nofollow" target="_blank" class="link">Github Games</a> repository</li>
+<li><code>gh-pages</code> is the default branch for this repository, not <code>master</code> like yesterday<ul>
+<li>When <code>gh-pages</code> is the default branch, you can see the code as a GitHub Pages site. This class's link is <a href="http://githubschool.github.io/github-games/" rel="nofollow" target="_blank" class="link">here</a></li>
+</ul>
+</li>
+<li>Create a new repository<ul>
+<li>You are the owner, and the repository name can be anything. Ours is <code>github-games</code>.</li>
+<li>Don't select any options, just click 'create repository'.</li>
+<li>Go back to the original repository, <a href="https://github.com/githubschool/github-games" rel="nofollow" target="_blank" class="link">Github Games</a> owned by 'GitHub School'</li>
+<li>To clone this locally, copy the 'clone url'. Go to the command line and clone: <code>git clone &lt;https-url-from-clipboard&gt;</code></li>
+</ul>
+</li>
+</ul>
+<h4>Make our changes</h4>
+<ul>
+<li>We need to change a link in the workflow.</li>
+<li>Create a branch locally and checkout to that branch: <code>git checkout -b readme-updates</code></li>
+<li>See all branches: <code>git branch --all</code></li>
+<li>Open the README.md file from the <code>readme-updates</code> branch.</li>
+<li>Update the link in line 5 to replace "githubschool" with your own username.</li>
+<li>Check the status: <code>git status</code></li>
+<li>Two step commit:<ul>
+<li><code>git add FILENAME</code> or <code>git add -A</code>, then <code>git status</code> to check</li>
+<li><code>git commit -m "Enter commit message"</code></li>
+<li>Check the log: <code>git log --oneline --graph --decorate --all</code>, or use the alias from yesterday, <code>git lol</code></li>
+</ul>
+</li>
+</ul>
+<h4>Merge our changes to <code>gh-pages</code> branch</h4>
+<ul>
+<li>Check out to the branch that we are merging into: <code>git checkout gh-pages</code></li>
+<li>See log: <code>git lol</code></li>
+<li>Merge the <code>readme-update</code> branch: <code>git merge readme-updates</code></li>
+<li>See what has merged: <code>git branch --merged</code></li>
+<li>Delete the branch we just created and merged:  <code>git branch -d readme-updates</code></li>
+</ul>
+<h4>Push our work to the remote repository</h4>
+<ul>
+<li>See the configured remotes: <code>git remote -v</code><ul>
+<li>The remotes listed do not allow us to push, so we need another option</li>
+</ul>
+</li>
+<li>Add another remote that we will have permission to<ul>
+<li>Copy the URL from the repository you created on GitHub.com</li>
+<li><code>git remote add mygame &lt;copied-URL&gt;</code></li>
+</ul>
+</li>
+<li>Push up your changes to your repository: <code>git push -u mygame gh-pages</code>.<ul>
+<li>The <code>u</code> flag sets a relationship with the branch in the remote repository.</li>
+</ul>
+</li>
+<li>Check your remotes: <code>git remote -v</code>.</li>
+</ul>
+<h4>Fixing the broken game</h4>
+<ul>
+<li>See the commit history: <code>git lol</code>.</li>
+<li>Find the commit where index.html was renamed to inde.html and copy the first 4 characters of that commit ID</li>
+<li>Revert that commit: <code>git revert &lt;first-4-characters&gt;</code>.</li>
+<li>Complete the commit message in your text editor, save, and close.</li>
+<li>Push your local changes to the remote repository: <code>git push mygame</code>.</li>
+<li>See your working game by going to the new link in the README on your remote repository.</li>
+</ul>
+<h4>Merge Conflicts</h4>
+<ul>
+<li>See our recent history with <code>git lol</code></li>
+<li>Checkout to the main branch: <code>git checkout gh-pages</code></li>
+<li>Try to merge <code>stats-update</code> into <code>gh-pages</code>: <code>git merge stats-update</code></li>
+<li><strong>This should create a merge conflict!</strong></li>
+<li>Get more information: <code>git status</code></li>
+<li>See the commits: <code>git lol</code></li>
+<li>Git tells us which file has a conflict, and in this case it's 'index.html'. <ul>
+<li>Open that file: <code>atom index.html</code></li>
+<li>Within that file, look for merge conflict markers. In this file they're between lines 14 and 18.  </li>
+<li>Make changes so there are no conflicts.</li>
+</ul>
+</li>
+<li>Two stage commit<ul>
+<li>Add the file: <code>git add -A</code></li>
+<li>Check the status: <code>git status</code></li>
+<li>Commit the change: <code>git commit</code></li>
+</ul>
+</li>
+</ul>
+</div>
+  </div>
+</div>
+<div class="chat-item__text js-chat-item-text">Recap of section 2, day 2: <h4>Practicing Merge Conflicts Again</h4>
+<ul>
+<li>Create a local copy of the branch <code>shape-colors</code>: <code>git checkout shape-colors</code></li>
+<li>Open 'index.html' locally</li>
+<li>Change the colors in lines 115-121</li>
+<li>Save the changes, close the text editor</li>
+<li>See status: <code>git status</code></li>
+<li>Stage the changes: <code>git add -A</code></li>
+<li>See status: <code>git status</code></li>
+<li>Commit the staged changes: <code>git commit -m "changing the colors of my game"</code></li>
+<li>Go back to the main branch: <code>git checkout gh-pages</code></li>
+<li>Try to merge the new branch: <code>git merge shape-colors</code></li>
+<li>We are going to do this differently this time. Let's exit: <code>git merge --abort</code></li>
+</ul>
+<h4>Reverse merge</h4>
+<ul>
+<li>Go back to our feature branch: <code>git checkout shape-colors</code></li>
+<li>Merge the other direction: <code>git merge gh-pages</code></li>
+<li>We have a conflict. To fix this:<ul>
+<li>Open the file. (We use Atom: <code>atom index.html</code>)</li>
+<li>Find the merge conflict markers and correct any duplicate or different information (between lines 115-131)</li>
+<li>Save the changes and exit the text editor.</li>
+<li>Stage the changes: <code>git add -A</code></li>
+<li>Commit the changes: <code>git commit -m "commit message"</code></li>
+</ul>
+</li>
+</ul>
+<h4>Merge into <code>gh-pages</code></h4>
+<ul>
+<li>Checkout to the deployed branch: <code>git checkout gh-pages</code></li>
+<li>Merge the changes: <code>git merge shape-colors</code></li>
+<li>Push the changes to the remote repository: <code>git push</code></li>
+</ul>
+<h4>New Feature</h4>
+<ul>
+<li>Create a new branch and checkout to that branch: <code>git checkout -b slow-down</code></li>
+<li>Open index.html. We are going to change the speed in the index.html file, line 78.</li>
+<li>On line 78, change the speed to be slower (or faster if you'd like!)</li>
+<li>Save the file and close the text editor.</li>
+<li>Make a new directory called images: <code>mkdir images</code>.</li>
+<li>Hunk the changes with a patch:<ul>
+<li><code>git add -p</code></li>
+<li><code>y</code></li>
+<li><code>n</code></li>
+<li><code>git status</code></li>
+<li>Confirm changes with <code>git diff</code></li>
+<li><code>git commit -m "enter commit message"</code></li>
+<li><code>git status</code></li>
+<li><code>git diff --color-words HEAD</code></li>
+<li><code>git add .</code></li>
+<li><code>git commit --m "commit message"</code></li>
+<li><code>git checkout gh-pages</code></li>
+<li><code>git merge slow-down</code></li>
+<li><code>git push</code></li>
+</ul>
+</li>
+</ul>
+<h4>Pull remote changes to the local repository</h4>
+<ul>
+<li><code>git fetch origin</code></li>
+<li><code>cat README.md</code></li>
+<li><code>git merge game-instructions</code></li>
+<li><code>git push</code></li>
+</ul>
+<h4>Practice rewriting history</h4>
+<ul>
+<li>CD back into your preferred directory to create a new repository</li>
+<li>Create a new repository locally: <code>git initializing practice-repo</code></li>
+<li>CD into that repository: <code>cd practice-repo</code></li>
+<li>Create a README: <code>touch README.md</code></li>
+<li>Add the readme to the repository: <code>git add README.md</code></li>
+<li>Commit the readme: <code>git commit -m "init the repository with a README"</code></li>
+<li>We are going to use empty files to practice rewriting history<ul>
+<li>Create four new files: <code>touch file1.md file2.md file3.md file4.md</code></li>
+</ul>
+</li>
+<li>Add and commit all of those files separately  <ul>
+<li><code>git add *1*</code></li>
+<li><code>git commit -m "adding file 1"</code></li>
+<li><code>git add *2*</code></li>
+<li><code>git commit -m "adding file 2"</code></li>
+<li><code>git add *3*</code></li>
+<li><code>git commit -m "adding file 3"</code></li>
+<li><code>git add *4*</code></li>
+<li><code>git commit -m "adding file 4"</code></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="chat-item__text js-chat-item-text">Recap from last section: <h4>Git Reset</h4>
+<ul>
+<li>Find resource for <code>git reset</code> <a href="https://training.github.com/kit/modules/CONT-CLI-19_Resetting-history.html" rel="nofollow" target="_blank" class="link">here</a></li>
+<li>Be careful with <code>git reset</code> when pushing to a remote repository. Any time you push a commit, you should not use reset locally again. The commit ID will change, and that will alter their history in a possibly dangerous way.</li>
+<li>Three types of reset<ul>
+<li><code>git reset --soft</code><ul>
+<li>Commits will go into the staging area</li>
+</ul>
+</li>
+<li><code>git reset --mixed</code><ul>
+<li>Default behavior of <code>git reset</code></li>
+<li>Commits will go into the working directory</li>
+</ul>
+</li>
+<li><code>git reset --hard</code><ul>
+<li>Commits will be deleted</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4>Practice <code>git reset --soft</code></h4>
+<ul>
+<li>See history: <code>git lol</code></li>
+<li>Go back two commits: <code>git reset --soft HEAD~2</code><ul>
+<li>See history now: <code>git lol</code></li>
+<li>Check status: <code>git status</code></li>
+</ul>
+</li>
+<li>Commit those changes: <code>git commit -m "adding files 3 and 4"</code><ul>
+<li>Check status: <code>git status</code></li>
+<li>See history: <code>git lol</code></li>
+</ul>
+</li>
+</ul>
+<h4>Practice <code>git reset</code>/<code>git reset --mixed</code></h4>
+<ul>
+<li>Go back with <code>git reset &lt;first-4-chars-of-commit-adding-file-2&gt;</code><ul>
+<li>Check status: <code>git status</code></li>
+<li>See history: <code>git lol</code></li>
+</ul>
+</li>
+<li>Re add those files<br>-Re-add file 3: <code>git add *3*</code><br>-Re-commit file 3: <code>git commit -m "re-adding file 3"</code><br>-Re-add file 4: <code>git add *4*</code><br>-Re-commit file 4: <code>git commit -m "re-adding file 4"</code></li>
+<li>Notice that the Commit ID is different than the first time those files were committed</li>
+</ul>
+<h4>Practice <code>git reset --hard</code></h4>
+<ul>
+<li><code>git reset --hard &lt;first-4-char-of-initalizing-repository&gt;</code></li>
+<li>This is a destructive command!<ul>
+<li>However, if you are <em>only</em> working locally, you can rescue commits using <code>git reflog</code>.</li>
+<li><code>git reflog</code> does not stick around forever!</li>
+<li>It only lasts for 90 days for a reachable commit.</li>
+<li>Unreachable commits only last for 30 days.</li>
+<li>These changes can be made in Git's configurations</li>
+<li>The reflog is only local - nobody else with a copy of the repository will have access to your reflog.</li>
+</ul>
+</li>
+</ul>
+<h4>Using Reflog and Cherry-pick</h4>
+<ul>
+<li><code>git reflog</code> to find that commit where we added file 2</li>
+<li><code>git cherry-pick &lt;first-4-chars-of-commit&gt;</code></li>
+<li>See history: <code>git lol</code></li>
+</ul>
+<h4>Rebase</h4>
+<ul>
+<li>Create a new branch and checkout to that branch: <code>git checkout -b rebase-me</code></li>
+<li>Add files to that branch using whatever method you prefer<ul>
+<li>You can create them from scratch if you'd like.</li>
+<li>Cynthia used <code>git cherry pick</code> to get existing files onto that branch</li>
+</ul>
+</li>
+<li>Checkout to the master branch: <code>git checkout master</code></li>
+<li>Create another file on master using whatever method you prefer</li>
+<li>See history of commits: <code>git lol</code></li>
+<li>Go back to the feature branch: <code>git checkout rebase-me</code><ul>
+<li>Note: With merge, you want to be on the branch that you are merging into. With rebase, you want to be on the branch that you are moving.</li>
+</ul>
+</li>
+<li>Rebase: <code>git rebase -i master</code><ul>
+<li>Note: <code>-i</code> means "interactive". This gives more control over the orders of the commits that will be replayed onto master branch.</li>
+</ul>
+</li>
+<li>See history: <code>git lol</code></li>
+<li>Use <code>git reflog</code> to see all of the commits that HEAD has been pointed to</li>
+</ul>
+<h4>Great Resource</h4>
+<ul>
+<li><a href="https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf" rel="nofollow" target="_blank" class="link">Git Cheat Sheet</a></li>
+<li><a href="https://git-scm.com/book/en/v2" rel="nofollow" target="_blank" class="link">ProGit</a> by Scott Chacon and Ben Straub</li>
+<li><a href="https://git-scm.com/docs/git" rel="nofollow" target="_blank" class="link">Git Documentation</a></li>
+</ul>
+</div>
+</body>
+</html>

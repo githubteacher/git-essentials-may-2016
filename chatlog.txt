@@ -1,0 +1,2308 @@
+githubteacher/git-essentials-may-2016
+A practice remote for the Git Essentials May 2016 class
+
+Briana Swift @brianamarie May 05 12:00
+Welcome to Git Essentials! I'm Briana, a trainer at GitHub. I'll be in this chat room to help with any questions along with my colleague and friend @halfaro1 :smile:
+
+Hector Alfaro @halfaro1 May 05 12:01
+:wave: hello all! :octocat:
+
+Marcu B. @bzuzul13 May 05 12:02
+hy :)
+
+jtfernandes-sky @jtfernandes-sky May 05 12:03
+Hi :)
+
+Robert Wayne @virtutemRob May 05 12:03
+Hi!
+
+mvnu-awillia2 @mvnu-awillia2 May 05 12:03
+Hi
+
+fabgonzalez @fabgonzalez May 05 12:03
+Hi
+
+cindyrains @cindyrains May 05 12:04
+Hello
+
+Josh Moyers @carbinemonoxide May 05 12:04
+Hello everyone.
+
+ETFernandes @ETFernandes May 05 12:04
+Hello :smile:
+
+nehakgoyal @nehakgoyal May 05 12:05
+Hi
+
+beardofedu @beardofedu May 05 12:05
+hello!
+
+mvillapando @mvillapando May 05 12:05
+Hello
+
+JohnAtCL @JohnAtCL May 05 12:06
+Hello
+
+Shyam bhagwat @sbhawat May 05 12:07
+Hello
+
+Briana Swift @brianamarie May 05 12:07
+Comment githubteacher/git-essentials-may-2016#1 to be added as a collaborator to the repository
+
+ebassias @ebassias May 05 12:08
+Hello
+
+Igor Sobot @Igor-Shampion May 05 12:09
+o/
+
+theoctagon1242 @theoctagon1242 May 05 12:11
+is GitBash the "text editor" for windows?
+
+Briana Swift @brianamarie May 05 12:12
+@theoctagon1242 It's not a text editor necessarily, but it's a tool on the command line/terminal that comes packaged with GitHub Desktop for Windows that will help everything run smoothly.
+
+theoctagon1242 @theoctagon1242 May 05 12:13
+ok I've played with it before
+just wanted to make sure same page, thank you
+
+Briana Swift @brianamarie May 05 12:13
+:smile: Great
+
+Marcu B. @bzuzul13 May 05 12:13
+2.8 yeey
+
+mvnu-awillia2 @mvnu-awillia2 May 05 12:14
+Is 2.1.4 fine?
+
+JeansBolong @JeansBolong May 05 12:14
+can i use 2.3.2
+
+Briana Swift @brianamarie May 05 12:14
+Anything over 1.9.5 will be fine :thumbsup:
+
+nehakgoyal @nehakgoyal May 05 12:17
+What if you already have a git local account?
+
+Marcu B. @bzuzul13 May 05 12:17
+how can i change the email ?
+
+JeansBolong @JeansBolong May 05 12:18
+can i have this video recorded after?
+
+Aaron Kulbe @akulbe May 05 12:18
+@bzuzul13 if you set it again, it'll change the current one
+
+Briana Swift @brianamarie May 05 12:18
+@nehakgoyal @bzuzul13 Cynthia is going over that now :smile:
+@JeansBolong Absolutely - the video is recorded and will be sent out to all participants in a few days.
+
+JeansBolong @JeansBolong May 05 12:18
+nice
+
+jtfernandes-sky @jtfernandes-sky May 05 12:22
+:dog:
+
+nehakgoyal @nehakgoyal May 05 12:23
+is there a code.editor command for text wrangler?
+
+Hector Alfaro @halfaro1 May 05 12:23
+Hehe yes, @jtfernandes-sky Cynthia's :dog: are fun!
+
+Hamid Rohani @hamid914 May 05 12:24
+How to set code.editor with wait option for Vim?
+
+Briana Swift @brianamarie May 05 12:24
+@nehakgoyal Short answer may be found here: https://help.github.com/articles/associating-text-editors-with-git/ I'll look for additional resources
+
+Hector Alfaro @halfaro1 May 05 12:24
+@brianamarie and @nehakgoyal I believe you'll need command line tools for text wrangler also: http://www.barebones.com/support/textwrangler/cmd-line-tools.html
+then you'll be able to set it by using edit as the name of the text editor
+
+beardofedu @beardofedu May 05 12:24
+i found this on stack overflow for a bunch of editors, here is the text wrangler example: git config --global core.editor "open -n -W -a TextWrangler"
+http://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits
+
+Briana Swift @brianamarie May 05 12:25
+:+1: @beardofedu Good to see you in here!
+
+nehakgoyal @nehakgoyal May 05 12:25
+I am currently using edit -w
+to open the file
+
+beardofedu @beardofedu May 05 12:25
+:sparkles:
+
+nehakgoyal @nehakgoyal May 05 12:25
+is there anything else i need to do?
+
+Briana Swift @brianamarie May 05 12:26
+@nehakgoyal For now, let's not - I don't want you to get behind with Cynthia's work now. If you need help setting configs later, we'll be around during breaks and Q&A :smile:
+
+Yaroslav Dimitrov @baxlash May 05 12:26
+how can i switch to differ drive letter in gitbash?
+
+Igor Sobot @Igor-Shampion May 05 12:27
+i do not have atom installed, could i use nano or vim text editor?
+
+Michael Scott Singh @wadadli May 05 12:27
+Igor sure.
+
+nehakgoyal @nehakgoyal May 05 12:27
+thanks
+
+Igor Sobot @Igor-Shampion May 05 12:28
+thx
+
+Aaron Kulbe @akulbe May 05 12:28
+version control ALL THE THINGZ!! :D
+
+Briana Swift @brianamarie May 05 12:28
+@akulbe I like the way you think!
+@baxlash we are working on an answer for you :smile:
+
+Michael Scott Singh @wadadli May 05 12:29
+or file README.md
+
+Herschal Trivedi @herschal May 05 12:31
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+Hector Alfaro @halfaro1 May 05 12:31
+@baxlash GitBash creates an environment in the directory on which Git is installed
+
+Briana Swift @brianamarie May 05 12:31
+@herschal have you cd'd into the new repository? cd git-essentials
+
+Igor Sobot @Igor-Shampion May 05 12:31
+Which GIT version is bottom line for this webinar?
+
+Briana Swift @brianamarie May 05 12:32
+@Igor-Shampion 1.9.5 :thumbsup:
+
+Hector Alfaro @halfaro1 May 05 12:32
+@baxlash you can also launch Git CMD from your installed programs and then navigate around the different drives / directories using the Windows Command Line
+
+theoctagon1242 @theoctagon1242 May 05 12:32
+will this class be recorded and available later?
+
+Michael Scott Singh @wadadli May 05 12:32
+Ya
+
+atulsingh008 @atulsingh008 May 05 12:33
+Could you please explain more about snapshot and what all it contain and the format of the same?
+
+Yaroslav Dimitrov @baxlash May 05 12:33
+ah that's much better
+thanks
+
+Briana Swift @brianamarie May 05 12:33
+@theoctagon1242 It is being recorded and the video will be sent out to all participants, even those who registered and couldn't attend, in a few days. :video_camera:
+
+Marcu B. @bzuzul13 May 05 12:33
+git commit
+error: cannot run vi: No such file or directory
+error: unable to start editor 'vi'
+Please supply the message using either -m or -F option.
+:(
+
+Briana Swift @brianamarie May 05 12:34
+@atulsingh008 I'm going to give Cynthia to cover it a bit more, but if you still have some questions at the break, let me know and I'll make sure your questions get answered. :smile:
+@bzuzul13 Ah, text editor configuration issues. For now, let's use a shortcut.
+
+Michael Scott Singh @wadadli May 05 12:34
+@bzuzul13 git commit -m "Enter commit message here"
+
+Marcu B. @bzuzul13 May 05 12:34
+thx :)
+
+Briana Swift @brianamarie May 05 12:34
+You'll include the commit message...exactly how @wadadli said@ Thanks @wadadli :clap:
+
+atulsingh008 @atulsingh008 May 05 12:34
+thnx...:)
+
+Herschal Trivedi @herschal May 05 12:35
+yes I did
+same prob
+
+Michael Scott Singh @wadadli May 05 12:35
+What's up?
+
+Briana Swift @brianamarie May 05 12:36
+@herschal Try these steps:
+- CD into a place where you are comfortable creating a new file
+- Create a new repository locally: `git init git-essentials`
+- CD into your new repository: `cd git-essentials`
+- View all files within the new repository: `ls -al`
+
+atulsingh008 @atulsingh008 May 05 12:37
+cannot find --wait.txt file
+do you want to create the same
+
+nehakgoyal @nehakgoyal May 05 12:37
+what if i don't want to quit my code editor before I commit?
+especially, if i have a lot of files open
+
+Michael Scott Singh @wadadli May 05 12:37
+@herschal - Does a .git directory exist?
+
+fabgonzalez @fabgonzalez May 05 12:37
+Im using the linux terminal but I don't see the (master) on my prompt
+
+Briana Swift @brianamarie May 05 12:38
+@atulsingh008 @nehakgoyal Try the commit message with git commit -m "Enter commit message here". The issue currently is with the default text editor, something we can help you troubleshoot during break.
+
+JohnAtCL @JohnAtCL May 05 12:38
+How do I get rid of this warning "warning: LF will be replaced by CRLF in README.md." when doing a coimmit?
+
+fabgonzalez @fabgonzalez May 05 12:38
+how can I activate it
+?
+
+Michael Scott Singh @wadadli May 05 12:38
+@fabgonzalez she'll get to it
+
+Igor Sobot @Igor-Shampion May 05 12:38
+same here
+
+atulsingh008 @atulsingh008 May 05 12:38
+thnx...:)
+
+Briana Swift @brianamarie May 05 12:38
+@fabgonzalez It could have to do with Cynthia's shell settings. I'll write a note to her so we talk about it at some point today.
+
+nehakgoyal @nehakgoyal May 05 12:38
+that's perfect... that is the solution i was looking for :)
+
+fabgonzalez @fabgonzalez May 05 12:38
+ok, thanks
+
+Briana Swift @brianamarie May 05 12:39
+@JohnAtCL I think it's the same general type of issue as others are having with text editor configurations. Try git commit -m "Enter commit message here" instead.
+
+atulsingh008 @atulsingh008 May 05 12:39
+can we save this chat history?
+
+Briana Swift @brianamarie May 05 12:40
+Also, sometimes Gitter chat gets busy (which is a good thing) and Hector (@halfaro1) and myself might miss some questions. If you ever ask something and we don't address it, or we don't address it properly, feel free to ask again and @brianamarie @halfaro1 to get our attention. :sparkles:
+
+Hector Alfaro @halfaro1 May 05 12:40
+@atulsingh008 absolutely, Gitter automatically archives chat
+
+nehakgoyal @nehakgoyal May 05 12:40
+@beardofedu Thanks for sharing the stackoverflow link before. It was helpful for setting text wrangler as a default code editor.
+
+tpvlaxmi @tpvlaxmi May 05 12:40
+why i am seeing at the time of commit/add: warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+
+Hector Alfaro @halfaro1 May 05 12:40
+we've also been backing it up in the class repository for redundancy @atulsingh008
+
+Briana Swift @brianamarie May 05 12:41
+@tpvlaxmi I think it's the same general type of issue as others are having with text editor configurations. Try git commit -m "Enter commit message here" instead.
+
+atulsingh008 @atulsingh008 May 05 12:41
+@hector thanks...:)
+
+chenulu @chenulu May 05 12:42
+What's the URL that Cynthia is talking Understanding the Github Flow?
+
+atulsingh008 @atulsingh008 May 05 12:42
+but from where to get that chat log if i need it tomorrow?
+
+tpvlaxmi @tpvlaxmi May 05 12:42
+@brianamarie thanks. Does that -m command work for add?
+
+atulsingh008 @atulsingh008 May 05 12:42
+https://guides.github.com/introduction/flow/
+
+Michael Scott Singh @wadadli May 05 12:42
+https://gitter.im/githubteacher/git-essentials-may-2016/archives/all @atulsingh008
+
+atulsingh008 @atulsingh008 May 05 12:43
+@michael thanks
+
+Hector Alfaro @halfaro1 May 05 12:43
+@wadadli :+1: :tada:
+
+Yaroslav Dimitrov @baxlash May 05 12:44
+can u make a branch of a branch
+
+beardofedu @beardofedu May 05 12:44
+@nehakgoyal :thumbsup:
+
+Adam Horrigan @adhorrig May 05 12:44
+yes @baxlash
+
+Hector Alfaro @halfaro1 May 05 12:44
+@baxlash yes, usually you'll branch from master though
+
+atulsingh008 @atulsingh008 May 05 12:44
+@baxlash yes
+
+Briana Swift @brianamarie May 05 12:44
+@chenulu Good question - you don't need to add a message with the add command. Are you getting an error when you type git add?
+
+chenulu @chenulu May 05 12:45
+No.. I am fine
+
+Briana Swift @brianamarie May 05 12:45
+:thumbsup: @chenulu
+
+jinnatan @jinnatan May 05 12:46
+what to make the branch name appear in blue color in the console?
+
+Hector Alfaro @halfaro1 May 05 12:46
+@chenulu if it helps, git add stages files for the next commit, I like Cynthia's analogy of lining up your friends and family for a picture, git commit on the other hand is equivalent to taking the picture. Only the commits needs need a message, not the adds
+@jinnatan there's a script we can send you to make that happen, let me get it for you
+
+jinnatan @jinnatan May 05 12:47
+@halfaro1 Thanks
+
+atulsingh008 @atulsingh008 May 05 12:47
+@halfaro1 please share the script with me as well... thanks
+
+Marcu B. @bzuzul13 May 05 12:47
+here to :)
+
+Hector Alfaro @halfaro1 May 05 12:48
+I'll drop the link here
+
+Marcu B. @bzuzul13 May 05 12:48
+awesome
+
+tpvlaxmi @tpvlaxmi May 05 12:48
+what is git add -A means?
+
+manjeet88 @manjeet88 May 05 12:50
+what does this "warning: LF will be replaced by CRLF in README.md" mean
+
+Briana Swift @brianamarie May 05 12:50
+@tpvlaxmi git add -A : all files that have already been added to Git will be recognized. So, if you're changing multiple files, they will be added in one step.
+I also like to use git add . which stages all files, including ones that have just been created or weren't tracked previously.
+Just for reference, before, we typed git add README.md which is how you stage just one file.
+
+Hector Alfaro @halfaro1 May 05 12:50
+Here it is from another one of our trainers:
+To print the name of your currently checked out branch in your prompt, include this line as part of your PS1:
+git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+People sometimes ask about the Terminal.app theme they see on screen. It is ocean-terminal. The prompt (PS1) is:
+export PS1="\[\$(tput bold)\]\[\$(tput setaf 6)\]\w\[\$(tput setaf 3)\]\$(git branch 2>/dev/null | sed -e '/^[^*]/d' -
+
+Briana Swift @brianamarie May 05 12:50
+@manjeet88 I think it's the same general type of issue as others are having with text editor configurations. Try git commit -m "Enter commit message here" instead.
+
+atulsingh008 @atulsingh008 May 05 12:54
+Expansion of alias 'lol' failed; 'git' is not a git command
+
+Hector Alfaro @halfaro1 May 05 12:54
+Note to @/all from now on you'll see Cynthia use git lol but this is not actually a git command, it's an alias for git log --oneline --graph --decorate --all
+
+Briana Swift @brianamarie May 05 12:55
+@atulsingh008 did you type git config --global alias.lol “log --oneline --graph --decorate --all"?
+
+Hector Alfaro @halfaro1 May 05 12:55
+You can create the alias for yourself using: git config --global alias.lol “log --oneline --graph --decorate --all"
+
+Igor Sobot @Igor-Shampion May 05 12:57
+hmmm, i was not able to create alias: Expansion of alias 'lol' failed; 'git' is not a git command
+
+atulsingh008 @atulsingh008 May 05 12:58
+yes same for me
+$ git config --global alias.lol "log --oneline --graph --decorate --all"
+>
+it get stucks here
+
+Briana Swift @brianamarie May 05 12:58
+Hm, alright. I'll look into this. Thanks all.
+
+Adam Horrigan @adhorrig May 05 13:00
+git merge update-readme, merged straight away - no atom opening
+
+Igor Sobot @Igor-Shampion May 05 13:00
+Thank you ! Its working now
+
+tpvlaxmi @tpvlaxmi May 05 13:00
+i don't see graph, even i have copied properly
+
+Cynthia Rich @crichID May 05 13:00
+git config --global alias.lol "log --oneline --graph --decorate --all"
+
+jinnatan @jinnatan May 05 13:00
+is there any difference between : 1. "git merge branchName" when you are in master; 2. "git merge master" when you are in the branch
+
+Briana Swift @brianamarie May 05 13:01
+@jinnatan Great question - I'll see if @crichID wants to answer live. If not, I'll address here :smile:
+
+Joseph Li @josephyli May 05 13:01
+What do --graph and --decorate do?
+
+ebassias @ebassias May 05 13:01
+@futurepr0n You awake buddy
+
+atulsingh008 @atulsingh008 May 05 13:02
+Please give some more idea on snapshot
+
+Marcu B. @bzuzul13 May 05 13:02
+higher zoom level on browser stuff?
+
+ZFDesign @zfdesign May 05 13:03
+How long is the beak
+
+Briana Swift @brianamarie May 05 13:03
+@josephyli Graph: Draw a text-based graphical representation of the commit history on the left hand side of the output. This may cause extra lines to be printed in between commits, in order for the graph history to be drawn properly. Decorate: Print out the ref names of any commits that are shown.
+
+Aaron Kulbe @akulbe May 05 13:03
+do hard things! challenge yourself! :)
+
+chenulu @chenulu May 05 13:03
+All: If you are on Mac .. Check out iTerm2 and zprezto (you can customize your prompts to show git branches) Here's a link http://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience/
+
+Aaron Kulbe @akulbe May 05 13:03
+iTerm2 == awesome
+
+Hector Alfaro @halfaro1 May 05 13:03
+@bzuzul13 good feedback, I'll relay it to Cynthia
+
+mvillapando @mvillapando May 05 13:04
+when i run this git config --global alias.lol “log --oneline --graph --decorate --all then run git lol, it says 'unknown option: --online
+
+Marcu B. @bzuzul13 May 05 13:04
+ints oneline not online
+its*
+mede the same mistake
+
+mvillapando @mvillapando May 05 13:05
+:) but i wrote the command as '--oneline' which is correct
+
+Briana Swift @brianamarie May 05 13:05
+@jinnatan 1. git merge branchName while in master will merge the changes of branchName into master, but not change anything on branchName. 2.git merge masterwhile on a branch will merge the changes ofmaster` into the different branch without changing anything on master. It's sometimes called a 'reverse merge', and it's a safe way to work out merge conflicts without chancing messing something up on master. Does that help?
+
+karenzapata19 @karenzapata19 May 05 13:05
+I joined a bit late. I'm using a windows computer. I missed the part about creating the readme file and right before than point where update-readMe was created. Is there a way I can catch up so I can follow along?
+
+Hector Alfaro @halfaro1 May 05 13:06
+@bzuzul13 and @mvillapando I blame autocorrect ;)
+
+Joby Joseph @jobyjoseph May 05 13:06
+you showed an image explaining branch and merging
+can you share that link?
+
+Antonio Medrano @antoniomedrano May 05 13:06
+my graph isn’t showing up from the lol alias
+[My Laptop]~/Desktop/scratch/git-essentials $ git lol
+8d1be3c (HEAD -> master) adding blank file 1
+824885c put some stuff in the readme
+d85a7e1 (update-readme) updated README file
+no graph
+
+Briana Swift @brianamarie May 05 13:08
+@atulsingh008 A commit is a snapshot of the entire repository at that point in time. So, in that commit, all of the files in the repository are compressed and stored, along with metadata including the parent commit and the author. I'm working on finding a good resource for you to research further after class - it sounds like you've got a lot of good questions and I want to make sure that you get the answers you're looking for.
+
+Joseph Li @josephyli May 05 13:08
+@antoniomedrano did you type git config --global alias.lol "log --oneline --graph --decorate --all"
+
+Antonio Medrano @antoniomedrano May 05 13:09
+This message was deleted
+
+jinnatan @jinnatan May 05 13:09
+@brianamarie Thanks. I got it
+
+Antonio Medrano @antoniomedrano May 05 13:09
+@josephyli yup
+
+Briana Swift @brianamarie May 05 13:10
+Sorry for how long this is going to be everyone....
+What we've covered so far
+Getting Ready for Class
+Make sure you have a github.com account
+Getting Started
+Git is a decentralized version control system. We read more about that here
+Make sure you have Git installed locally, version 1.9 or higher
+Windows: GitHub Desktop
+Mac/Linux: Git Scm
+Check your Git version with git --version
+Configure Git
+Git has three levels of configuration: --system, --global, and --local. We'll use --global today.
+Type the following configurations
+git config --global user.name "Your Actual Name"
+git config --global user.email "youractual@email.com"
+Windows: git config --global core.autocrlf true
+Mac/Linux: git config --global core.autocrlf input
+Optional text editor:
+If you have atom as a text editor: git config --global core.editor "atom --wait"
+Get help with other text editors here
+git config --global push.default
+Working-locally.adoc
+CD into a place where you are comfortable creating a new file
+Create a new repository locally: git init git-essentials
+CD into your new repository: cd git-essentials
+View all files within the new repository: ls -al
+See your current file status with git status
+Create a new README file: touch README.md
+Add some material: echo "This is some content" >> README.md
+Verify what's in your readme: cat README.md
+See what's changed: git status
+Stage the file with git add README.md
+Commit the file with: git commit
+If your text editor default is configured, your text editor will open and you can create your commit message there. Type your message, save, and close the editor.
+If your defaults aren't configured, you may get an error. No worries! Type: git commit -m "Enter commit message here"
+Git Flow
+We discuss the Git and GitHub workflow using GitHub Guides
+Branch
+Create an exact copy of the project where you can work on a new feature that will later be merged in
+It's good practice to make all commits on branches other than master
+View current local branches: git branch
+Create new branch: git branch branch-name
+Move to that branch to work: git checkout branch-name
+Open the README.md file on your branch, make and save changes
+See state of files: git status
+Two-Stage commit
+Stage all files for the commit: git add .
+git status
+Commit the changes with git commit -m "Enter commit message here"
+See history of commits: git log, git log --stat, git log --patch, git log --oneline
+More info here
+Set an alias for our favorite way to view history: git config --global alias.lol "log --oneline --graph --decorate --all"
+git lol
+Practice the Two Stage Commit on another branch (Note: We are only commiting to as an example, it is considered bad practice in common workflows.)
+Checkout to master: git checkout master
+Create a file: touch file1.md
+See git status
+Add the file to staging: git add file1.md
+git status
+git commit -m "adding blank file 1"
+git lol
+Merge the branch
+git merge update-readme
+git lol
+@jobyjoseph Is this what you're thinking of? https://guides.github.com/introduction/flow/
+
+Joby Joseph @jobyjoseph May 05 13:11
+yes. tahnk you
+
+Briana Swift @brianamarie May 05 13:12
+@antoniomedrano What operating system are you using?
+
+Antonio Medrano @antoniomedrano May 05 13:12
+OS X 10.11.4
+
+Briana Swift @brianamarie May 05 13:12
+@karenzapata19 If you need more help or the steps I posted above are confusing, don't hesitate to ask more questions :smile:
+
+mvillapando @mvillapando May 05 13:12
+@brianamarie dont be sorry, are you going to send something like 'what we covered so far' again when the session is finished
+
+Josh Moyers @carbinemonoxide May 05 13:13
+Will there be a recording of these two days that I could use to pass on this knowledge to the rest of my team?
+
+Briana Swift @brianamarie May 05 13:13
+@mvillapando that's the plan, but this is my first time creating notes for this course, so I may miss a few things depending on how well I multi-task :wink: I appreciate patience and understanding if there are some errors in my notes as I'm taking them down as we go.
+
+Joseph Li @josephyli May 05 13:13
+@antoniomedrano maybe your system is doing a fast forward (http://stackoverflow.com/questions/16217363/git-graph-not-showing-branch)
+
+Briana Swift @brianamarie May 05 13:13
+@carbinemonoxide We will send all participants a recording of both days, even participants that registered but weren't able to make the webinars
+
+Igor Sobot @Igor-Shampion May 05 13:14
+Did i lost sound or no talking yet?
+
+Adam Horrigan @adhorrig May 05 13:15
+lost sound @Igor-Shampion
+
+Kartiki Joshi @kartikijoshi May 05 13:15
+Hi... Just a small non-technical query.
+As per the mail this was a 1 hr session.
+Can i know by when we will finish it? I`ve joined it from my office in Asia.
+Need to know the end time.
+
+karenzapata19 @karenzapata19 May 05 13:15
+thank you @brianamarie
+
+Adam Horrigan @adhorrig May 05 13:15
+@kartikijoshi 1 hour 45 mins from now
+
+Marcu B. @bzuzul13 May 05 13:15
+I think it's 3hrs
+
+mvillapando @mvillapando May 05 13:16
+i thought it was 3 hours. it suppose to finish at 8pm here UK time @kartikijoshi
+
+Briana Swift @brianamarie May 05 13:16
+Sound should be back now - post here if you aren't able to hear.
+@kartikijoshi We are planning to go for about 1 hour and 45 minutes longer. If you need to go, you will still get a recording of the class, but I'm not certain it will be sent out in time to catch up before tomorrow.
+
+Igor Sobot @Igor-Shampion May 05 13:17
+I have exited webinar and started again, sound is back
+
+Briana Swift @brianamarie May 05 13:17
+:thumbsup: @Igor-Shampion
+
+tpvlaxmi @tpvlaxmi May 05 13:17
+I see few new files in update-remote branch, when I tried to merge to master, I see "already up-to-date" commend. Could you please me what I am doing wrong
+
+Kartiki Joshi @kartikijoshi May 05 13:17
+oops.. Ohk. Thanks Adam and Briana.
+
+Briana Swift @brianamarie May 05 13:18
+@tpvlaxmi If you type git branch, what branch are you currently on?
+
+tpvlaxmi @tpvlaxmi May 05 13:18
+I am currently in update-branch
+So I should be moving to master then try git merge?
+
+Briana Swift @brianamarie May 05 13:19
+Aha! When you merge to master, you first need to be on master. You can get there with git checkout master. Then, try the git merge update-remote again.
+
+tpvlaxmi @tpvlaxmi May 05 13:19
+oh great @brianamarie Thanks. it's silly
+
+Antonio Medrano @antoniomedrano May 05 13:20
+@brianamarie okay, fixed the graph issue, but now I get the dreaded:
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+Briana Swift @brianamarie May 05 13:20
+Haha no worries, glad it's working @tpvlaxmi
+Ah @antoniomedrano I think you're a step ahead...don't worry, Cynthia will cover merge conflicts soon. Nothing to be afraid of :smile:
+
+mvillapando @mvillapando May 05 13:22
+@brianamarie im still getting this issue. when i run this git config --global alias.lol “log --oneline --graph --decorate --all then run git lol, it says 'unknown option: --online
+
+Hector Alfaro @halfaro1 May 05 13:22
+@mvillapando make sure it says oneline and not online
+
+Briana Swift @brianamarie May 05 13:22
+@mvillapando Is there a space between the two dashes and oneline?
+
+mvillapando @mvillapando May 05 13:23
+no
+it defo says oneline
+
+Hector Alfaro @halfaro1 May 05 13:23
+@mvillapando if that still doesn't work I'd suggest skipping the alias for now and using the long command anytime you'd like to see the graph
+
+Briana Swift @brianamarie May 05 13:23
+@mvillapando Did you copy and paste exactly what you posted in your terminal?
+
+mvillapando @mvillapando May 05 13:23
+@brianamarie exacrtly copy and pasted
+@brianamarie np, ill use long command
+
+Briana Swift @brianamarie May 05 13:24
+:+1:
+
+Igor Sobot @Igor-Shampion May 05 13:24
+Could you repeat what that 7 digit HEX number means?
+fc41834 Initializing my repository with a README
+
+Hector Alfaro @halfaro1 May 05 13:26
+Great question @Igor-Shampion! It's called a SHA hash. It's how git uniquely identifies each commit
+Cynthia will cover that when we get deep into git later ;)
+it's technically larger than 7 digits, you're seeing a shortened version on the screen
+
+Igor Sobot @Igor-Shampion May 05 13:28
+Thank you Hector
+
+tpvlaxmi @tpvlaxmi May 05 13:29
+what is the commend for fast forward merge?
+
+Hector Alfaro @halfaro1 May 05 13:30
+@tpvlaxmi git will automatically do a fast-forward versus recursive merge
+
+Briana Swift @brianamarie May 05 13:30
+@tpvlaxmi git merge -ff When the merge resolves as a fast-forward, only update the branch pointer, without creating a merge commit. This is the default behavior. More info here
+
+tpvlaxmi @tpvlaxmi May 05 13:31
+I missed the point that we can merge without having commit, could u please that again
+
+Briana Swift @brianamarie May 05 13:32
+If there are no commits, you wouldn't have anything to merge. I don't know that I understand your question.
+
+David Pearson @GrecoJava May 05 13:32
+short lived branches -- then how do we manage multiple concurrent release development of a product? If my project has concurrent development on release 4,5 & 6 . Our development is typically 3-4 months in each release , and that is overlapping time periods.
+
+tpvlaxmi @tpvlaxmi May 05 13:32
+Sorry, when I am trying to run "git merge feature-branch" -> it is creating a commit. Is there any way we can merge without creating commit. I missed that point in the session
+
+Briana Swift @brianamarie May 05 13:33
+Fantastic question, @GrecoJava. I'm going to pass that along to Cynthia and also find some resources to make sure I get you the most correct answer. :)
+
+David Pearson @GrecoJava May 05 13:35
+dpears@DTC97C3E0D3169B /cygdrive/c/src/android_training/GitEssentials
+$ git clone https://github.com/githubteacher/git-essentials-may-2016.git
+Cloning into 'git-essentials-may-2016'...
+fatal: unable to access 'https://github.com/githubteacher/git-essentials-may-2016.git/': error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol
+dpears@DTC97C3E0D3169B /cygdrive/c/src/android_training/GitEssentials
+$
+I think I have firewall issues
+
+kgodoy @kgodoy May 05 13:36
+Maybe you need to log in?
+
+Igor Sobot @Igor-Shampion May 05 13:36
+Cloning into 'git-essentials-may-2016'...
+fatal: Unable to find remote helper for 'https'
+
+Hector Alfaro @halfaro1 May 05 13:36
+@GrecoJava if it's a firewall issue we may or may not work but try using SSH instead of HTTPS
+@Igor-Shampion you can try SSH as well
+
+atulsingh008 @atulsingh008 May 05 13:37
+hot to create a shared repository?
+
+Briana Swift @brianamarie May 05 13:37
+@tpvlaxmi The only merge that creates a commit is a recursive merge. For now, I suggest moving along and following Cynthia, and I'll make sure your question gets queued up for Q&A. :)
+
+David Pearson @GrecoJava May 05 13:38
+SSH fails too:
+dpears@DTC97C3E0D3169B /cygdrive/c/src/android_training/GitEssentials
+$ git clone git@github.com:githubteacher/git-essentials-may-2016.git
+Cloning into 'git-essentials-may-2016'...
+ssh: connect to host github.com port 22: Connection timed out
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.
+dpears@DTC97C3E0D3169B /cygdrive/c/src/android_training/GitEssentials
+$
+how do I set proxy settings?
+is there soemthing I can put int he config
+
+Hector Alfaro @halfaro1 May 05 13:38
+@atulsingh008 repositories can be shared in any number of ways, one way to share one is on GitHub.com
+
+Briana Swift @brianamarie May 05 13:38
+@atulsingh008 That's on GitHub, and this course is focusing primarily on Git. I suggest checking out GitHub for Everyone or GitHub for Developers next week. Register here
+
+David Pearson @GrecoJava May 05 13:39
+I am enrolled in those next week
+
+Hector Alfaro @halfaro1 May 05 13:40
+@GrecoJava I'm not sure if there's a way for us to get around your firewall... I'll do a little research. If it helps you'll be able to follow along with the recording if you'd like to watch for the time being
+
+Briana Swift @brianamarie May 05 13:41
+@GrecoJava Could be a config issue. Could you type git config -l? I have some questions for you :)
+
+Igor Sobot @Igor-Shampion May 05 13:41
+Need help with ssh cloning: Cloning into 'git-essentials-may-2016'...
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.
+
+Briana Swift @brianamarie May 05 13:42
+@Igor-Shampion and @GrecoJava you may be having the same/similar issues.
+
+David Pearson @GrecoJava May 05 13:42
+I figured out hte proxy settings
+git config --global http.proxy 127.0.0.1:5865
+
+Hector Alfaro @halfaro1 May 05 13:43
+@Igor-Shampion you can try this also: https://help.github.com/articles/generating-an-ssh-key/
+
+Briana Swift @brianamarie May 05 13:43
+Fantastic @GrecoJava, is it working as expected?
+
+David Pearson @GrecoJava May 05 13:43
+points to a local proxy that then routes through my corporate proxy
+
+Hector Alfaro @halfaro1 May 05 13:44
+:tada: @GrecoJava
+
+karenzapata19 @karenzapata19 May 05 13:46
+@brianamarie Will the screen activity for today's and tomorrow's lessons also be shared in addition to the audio?
+
+Briana Swift @brianamarie May 05 13:46
+@karenzapata19 Yes, it'll be shared as a video. :smile:
+
+karenzapata19 @karenzapata19 May 05 13:47
+great! Also, where can I find the complete outline for the lessons? LIke the one you previously shared earlier today in the chat during the 10 -min break...that's really helpful :)
+
+Hector Alfaro @halfaro1 May 05 13:48
+@karenzapata19 I bet that's what @brianamarie is working on right now ;)
+
+Aaron Kulbe @akulbe May 05 13:48
+because it’s all local
+
+Hector Alfaro @halfaro1 May 05 13:48
+we try to minimize noise so we'll post a summary near the next break
+
+atulsingh008 @atulsingh008 May 05 13:48
+i need permission to the repo
+
+Briana Swift @brianamarie May 05 13:49
+Comment here @atulsingh008 githubteacher/git-essentials-may-2016#1
+
+kgodoy @kgodoy May 05 13:50
+#1 Please add me as well
+
+Briana Swift @brianamarie May 05 13:50
+If you click this link: githubteacher/git-essentials-may-2016#1 OR copy and paste this https://github.com/githubteacher/git-essentials-may-2016/issues/1 into your browser, commenting there will help us add you :)
+
+karenzapata19 @karenzapata19 May 05 13:51
+@halfaro1 @brianamarie thank you both so much.
+
+Briana Swift @brianamarie May 05 13:52
+:sparkles: @karenzapata19
+
+kgodoy @kgodoy May 05 13:52
+I got my access thank you much
+
+Briana Swift @brianamarie May 05 13:52
+:sparkles: @kgodoy
+
+tpvlaxmi @tpvlaxmi May 05 13:52
+it is asking me the password, what password I should be entering?
+
+nehakgoyal @nehakgoyal May 05 13:52
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/githubteacher/git-essentials-may-2016.git/'
+
+Marcu B. @bzuzul13 May 05 13:53
+git push -u origin bzuzul13-cluj
+error: src refspec bzuzul13-cluj does not match any.
+error: failed to push some refs to 'https://github.com/githubteacher/git-essentials-may-2016.git'
+
+Briana Swift @brianamarie May 05 13:53
+It's looking for your github username and password @tpvlaxmi @nehakgoyal associated with the account that you commented on the issue with
+
+kgodoy @kgodoy May 05 13:54
+pace is good
+
+nehakgoyal @nehakgoyal May 05 13:54
+not working
+
+Briana Swift @brianamarie May 05 13:54
+@bzuzul13 Have you created a branch locally named "bzuzul13-cluj"?
+
+atulsingh008 @atulsingh008 May 05 13:54
+$ git push -u origin
+fatal: The current branch githubteacher-indpune has no upstream branch.
+To push the current branch and set the remote as upstream, use
+git push --set-upstream origin githubteacher-indpune
+
+maxvohiken @maxvohiken May 05 13:54
+is there a page that shows the commands that have been run so far?
+
+nehakgoyal @nehakgoyal May 05 13:54
+worked
+
+Josh Moyers @carbinemonoxide May 05 13:54
+I'm having an issue with the fact that someone else once used my machine and authenticated via https to clone something. Now its trying to use those credentials instead of mine when pushing
+
+nehakgoyal @nehakgoyal May 05 13:54
+thanks!
+
+Adam Horrigan @adhorrig May 05 13:55
+what is the push origin?
+
+Tim Niblett @LEDominator May 05 13:55
+What commands did you run to customize your terminal output to include the branch you are currently in?
+
+Josh Moyers @carbinemonoxide May 05 13:55
+Is there a way to clear his credentials?
+
+Briana Swift @brianamarie May 05 13:55
+Here's what we covered in the last 45 minute section
+Practice merging again
+Create another branch: git branch another-update
+Go to that branch: git checkout another-update
+Add another file: touch file2.md
+git status
+git add file2.md
+git commit -m "adding file 2"
+git lol
+git merge another-update
+git lol
+git branch --merged
+git branch -d another-update update-readme
+Collaborating
+Copy the class repository locally
+CD out of your current repository
+Clone the repository: git clone https://github.com/githubteacher/git-essentials-may-2016.git
+Create a branch for your own work
+git branch your-user-name-hometown
+git checkout your-user-name-hometown
+Create a file
+touch yourusername-yourhometown.md
+Two stage commit
+git add .
+git status
+git commit -m 'adding a stub to username file'
+Push your changes to the remote repository
+git push -u origin your-user-name-hometown
+If this doesn't work, you may not be a collaborator. Comment githubteacher/git-essentials-may-2016#1 so we can add you.
+
+micquan @micquan May 05 13:55
+Hi I am unable to set up my environment for this session so couldn't do any practical but I am watching the whole training so far
+
+Briana Swift @brianamarie May 05 13:56
+@atulsingh008 What is the name of your branch? The command git push -u origin expects to have the name of the new branch, like git push -u origin BRANCHNAME to work properly
+
+JohnAtCL @JohnAtCL May 05 13:56
+Got these error with the push, what to do?
+remote: Permission to githubteacher/git-essentials-may-2016.git denied to JohnAtCL.
+fatal: unable to access 'https://github.com/githubteacher/git-essentials-may-2016.git/': The requested URL returned error: 403
+
+micquan @micquan May 05 13:56
+is there another first session that I can retake?
+
+Tim Niblett @LEDominator May 05 13:57
+@JohnAtCL you need to be added; comment on the issue thread on the webpage
+
+Hector Alfaro @halfaro1 May 05 13:57
+@atulsingh008 the command is git push -u origin <your-branch-name>
+
+JeansBolong @JeansBolong May 05 13:57
+so, git push -u origin comand can be done if we already became collaborator
+
+Briana Swift @brianamarie May 05 13:57
+@adhorrig Origin is the human-friendly name for the remote repository on your machine. It's 'real' long name is the https url that you copied down when you cloned. Does that answer your question?
+
+JeansBolong @JeansBolong May 05 13:57
+is this thing still work with other repo?
+
+atulsingh008 @atulsingh008 May 05 13:58
+@brianamarie thanks
+
+Hector Alfaro @halfaro1 May 05 13:58
+@micquan the recording will be sent to you in a couple of days, so you can always follow along with the recording once you can get your environment setup
+
+Briana Swift @brianamarie May 05 13:58
+@micquan :frowning: I'm sorry to hear that you are having troubles with your environment, but I'm very glad you're sticking around for the training! If there's anything we can do to help you along the way or answer any questions, let us know. We are offering more courses, but not this exact course next week. You can register here
+
+davedragon @davedragon May 05 13:58
+I'm getting fatal: Authentication failed for 'https://github.com/githubteacher/git-essentials-may-2016.git/' , I know my username / pwd are right as I just relogged in with them to check. Does 2-FA cause any issue?
+
+Briana Swift @brianamarie May 05 13:59
+@JeansBolong Yes :) You need to be a collaborator to have push access, or an admin or owner. It is linked with the class repository - we're all pushing to the same remote repository.
+
+Cynthia Rich @crichID May 05 14:00
+@carbinemonoxide did you try git config —global —unset credential.helper ?
+
+Briana Swift @brianamarie May 05 14:00
+@davedragon Have you commented githubteacher/git-essentials-may-2016#1 You might not have collaborator access.
+
+Antonio Medrano @antoniomedrano May 05 14:00
+this website just made my day: https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
+shows how to enable autocomplete in git
+
+Briana Swift @brianamarie May 05 14:01
+:sparkles: @antoniomedrano Great find - The ProGit book is available free there and is FULL of fantastic information.
+For others, find the book ProGit for free here.
+
+Igor Sobot @Igor-Shampion May 05 14:01
+Hehe, i have not gived up, i manage to clone!! :D (needed to do this : https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-linux)
+
+Josh Moyers @carbinemonoxide May 05 14:02
+@crichID I've figured it out. Deleted the local repository, re-cloned with SSH instead to use the config I already had set up for GitHub.
+
+Hector Alfaro @halfaro1 May 05 14:02
+@Igor-Shampion :tada: :clap:
+
+Briana Swift @brianamarie May 05 14:02
+Woohoo! @Igor-Shampion :sparkles: :smile: Thanks for sticking with it AND sharing how you did it here!
+
+Hamid Rohani @hamid914 May 05 14:02
+I had set two factor authentication for my github, now it raises this error: fatal: Authentication failed for 'https://github.com/githubteacher/git-essentials-may-2016.git/'
+
+micquan @micquan May 05 14:02
+I have registered the github for developers next week - will it be similar?
+
+QFilu @QFilu May 05 14:02
+can we get some kind of offline notes to review and practice later @/all
+
+fabgonzalez @fabgonzalez May 05 14:02
+@halfaro1 Would this be a good way to change the prompt? https://github.com/jimeh/git-aware-prompt
+
+Tim Niblett @LEDominator May 05 14:02
+@davedragon if you have just enabled 2-FA it will cause problems; the best way to fix it is to login using a created key. To do that go to your profile-->edit profile --> personal access tokens
+
+Hector Alfaro @halfaro1 May 05 14:03
+@hamid914 you can generate a token here https://github.com/settings/tokens
+
+Briana Swift @brianamarie May 05 14:03
+@LEDominator Thank you! :sparkles:
+
+Hector Alfaro @halfaro1 May 05 14:03
+ooh thanks @LEDominator :smile:
+
+Briana Swift @brianamarie May 05 14:03
+@micquan It will be a bit more focused on the browser and GitHub, but it will cover all of the same things we have done so far today and then some.
+
+micquan @micquan May 05 14:03
+You mentioned the recording earlier that will help - thank you
+
+Tim Niblett @LEDominator May 05 14:04
+np, glad to help; I ran into this same problem a while back :D
+
+davedragon @davedragon May 05 14:04
+@LEDominator Thx I'll give that a try, I'm a Collaborator and still failing
+
+Hector Alfaro @halfaro1 May 05 14:04
+@fabgonzalez looks similar to the one I sent early :+1:
+
+Briana Swift @brianamarie May 05 14:04
+@QFilu We will send a recording. I suggest copying the chunks of notes that I'll paste at the end of each section. At the end of the day tomorrow, I'll post notes in here that you can copy locally.
+
+fabgonzalez @fabgonzalez May 05 14:05
+@halfaro1 I didn't get that message, could you send me again the link,?
+
+QFilu @QFilu May 05 14:06
+@brianamarie thnku
+
+Hector Alfaro @halfaro1 May 05 14:08
+Here it is from another one of our trainers:
+To print the name of your currently checked out branch in your prompt, include this line as part of your PS1:
+git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+People sometimes ask about the Terminal.app theme they see on screen. It is ocean-terminal. The prompt (PS1) is:
+export PS1="\[\$(tput bold)\]\[\$(tput setaf 6)\]\w\[\$(tput setaf 3)\]\$(git branch 2>/dev/null | sed -e '/^[^*]/d' -
+:point_up: @fabgonzalez
+
+Igor Sobot @Igor-Shampion May 05 14:10
+Thank you Hector, i manage to push :)
+
+micquan @micquan May 05 14:10
+is chat on gitter a GitHub feature?
+
+fabgonzalez @fabgonzalez May 05 14:10
+Thank you very much!!!!! @halfaro1 :)
+
+Briana Swift @brianamarie May 05 14:10
+:tada: @Igor-Shampion
+
+davedragon @davedragon May 05 14:10
+@LEDominator I just turned off 2-FA for now and all is good, I'll turn it on again later, thx for your help
+
+atulsingh008 @atulsingh008 May 05 14:10
+what is mean by git init --shared?
+
+Briana Swift @brianamarie May 05 14:11
+@micquan It's an integration with GitHub, not maintained by GitHub. https://github.com/integrations/gitter
+
+Hector Alfaro @halfaro1 May 05 14:11
+@atulsingh008 git init initiates git on the directory in which you run it
+
+Briana Swift @brianamarie May 05 14:12
+@atulsingh008 Shared specifies that the Git repository is to be shared amongst several users. This allows users belonging to the same group to push into that repository. (Found here )
+
+Tim Niblett @LEDominator May 05 14:12
+@halfaro1 Thanks!
+
+micquan @micquan May 05 14:12
+will this be available and work for on-premise enterprise solution?
+
+atulsingh008 @atulsingh008 May 05 14:12
+then how --shared differ with --system?
+
+Hector Alfaro @halfaro1 May 05 14:13
+@micquan it's one chat appliance, there are many others like Slack
+
+Hamid Rohani @hamid914 May 05 14:13
+@halfaro1 thanks
+
+Briana Swift @brianamarie May 05 14:13
+@atulsingh008 I'm not familiar with git init --system, let me look into that.
+
+Hector Alfaro @halfaro1 May 05 14:13
+@micquan and it isn't run by GitHub
+
+Briana Swift @brianamarie May 05 14:14
+@micquan All of our integrations are available on Enterprise instances as far as I know. Use of the integrations is up to your team. I'll look into that to make sure that's the most correct answer. :smile:
+
+micquan @micquan May 05 14:14
+slack isn't available for the enterprise its Cloud only
+
+Briana Swift @brianamarie May 05 14:14
+Oh, I see. I believe gitter is cloud only as well.
+Thank you for helping me understand.
+
+micquan @micquan May 05 14:15
+ok thx
+
+karenzapata19 @karenzapata19 May 05 14:17
+I may have to leave the session early before noon. Will we receive an email with the recording and session notes or should I check somewhere for this info?
+FYI re : noon (im in pacific time zone)
+
+Briana Swift @brianamarie May 05 14:17
+@karenzapata19 You will get an email with the recording, although I don't know that it will be posted before tomorrow. Notes will be posted in this gitter room. :smile: Thanks for joining us!
+
+Hector Alfaro @halfaro1 May 05 14:18
+@beardofedu is the teacher's pet :P
+
+beardofedu @beardofedu May 05 14:18
+hahaha
+@halfaro1 :clap:
+
+Briana Swift @brianamarie May 05 14:19
+@atulsingh008 To answer your question about the difference between git init --shared and git init --system: git init --system is not a command :smile:
+
+JohnAtCL @JohnAtCL May 05 14:27
+Anyone knows how to stop getting email regarding [githubteacher/git-essential...]?
+
+Aaron Kulbe @akulbe May 05 14:27
+@JohnAtCL stop following the repo
+
+Hector Alfaro @halfaro1 May 05 14:27
+@JohnAtCL yes, we normally cover this but we didn't this time around
+
+Aaron Kulbe @akulbe May 05 14:27
+you can do that from the Github page for the repo
+
+Briana Swift @brianamarie May 05 14:27
+Yes - go to the repository page here and select 'unwatch' on the upper right side @JohnAtCL
+
+JohnAtCL @JohnAtCL May 05 14:27
+ok, thanks!
+
+Josh Moyers @carbinemonoxide May 05 14:27
+I am unable to split.
+
+Briana Swift @brianamarie May 05 14:27
+Actually @JohnAtCL you might want to select 'ignore' instead :smile: up to you
+
+Josh Moyers @carbinemonoxide May 05 14:28
+Upon selecting 's', it just lists all the options available
+
+Hector Alfaro @halfaro1 May 05 14:28
+@carbinemonoxide screenshot?
+
+Joseph Li @josephyli May 05 14:29
+What can I do if everytime it asks for my username and password?
+
+Hector Alfaro @halfaro1 May 05 14:30
+@josephyli try this: https://help.github.com/articles/why-is-git-always-asking-for-my-password/
+
+Josh Moyers @carbinemonoxide May 05 14:30
+Screen Shot 2016-05-05 at 2.30.07 PM.png
+
+Hector Alfaro @halfaro1 May 05 14:31
+@josephyli alternatively, you can clone with SSH instead of HTTPS
+
+Joseph Li @josephyli May 05 14:31
+@halfaro1 thanks!
+
+Briana Swift @brianamarie May 05 14:31
+@carbinemonoxide What happens if you type y next?
+
+Marcu B. @bzuzul13 May 05 14:31
+git checkout master
+Switched to branch 'master'
+Your branch and 'origin/master' have diverged,
+and have 3 and 8 different commits each, respectively.
+(use "git pull" to merge the remote branch into yours)
+
+Josh Moyers @carbinemonoxide May 05 14:31
+It stages, but did not split it.
+
+Briana Swift @brianamarie May 05 14:32
+I see. I'm going to queue this up for Q&A :smile: Now I'm wanting to go to Akron for a burger...
+
+Josh Moyers @carbinemonoxide May 05 14:33
+If you live nearby it is definitely worth the trip. :P
+
+Hector Alfaro @halfaro1 May 05 14:36
+@carbinemonoxide the e option will also bring it up in a text editor
+
+beardofedu @beardofedu May 05 14:37
+@carbinemonoxide your "get out of here before you get stuck" reminds me of a Lewis Black joke
+
+Josh Moyers @carbinemonoxide May 05 14:37
+@halfaro1 Thanks. :)
+
+Igor Sobot @Igor-Shampion May 05 14:40
+I cant do git pull
+error: You have not concluded your merge (MERGE_HEAD exists).
+
+Kartiki Joshi @kartikijoshi May 05 14:41
+m everytime asked for username and password. Whats that command to setup global username and password?
+
+Josh Moyers @carbinemonoxide May 05 14:42
+@kartikijoshi git config --global user.name "username here"
+
+Hector Alfaro @halfaro1 May 05 14:42
+@kartikijoshi you'll want to follow the instructions here or use SSH for cloning
+
+Joseph Li @josephyli May 05 14:43
+git s doesn’t seem to do anything for me
+
+Briana Swift @brianamarie May 05 14:43
+That's one of Cynthia's alises, @josephyli. She just is running git status
+
+Igor Sobot @Igor-Shampion May 05 14:43
+When i try to do pull, i need to do commit first but i cant because of : fatal: cannot do a partial commit during a merge. Any clue?
+
+Joseph Li @josephyli May 05 14:43
+(i think that’s what Cynthia typed)
+
+Hector Alfaro @halfaro1 May 05 14:43
+@carbinemonoxide that command identifies your commits, but it doesn't store your github username and password
+
+Joseph Li @josephyli May 05 14:43
+ah
+
+Hector Alfaro @halfaro1 May 05 14:43
+@carbinemonoxide (for the purposes of pushing anyway)
+
+Josh Moyers @carbinemonoxide May 05 14:44
+I see.
+
+Briana Swift @brianamarie May 05 14:44
+@kartikijoshi You can set it globally, but password cacheing may be a better solution. Info here: why is it asking for my password and here: caching password
+Whoops! sorry, edited it to work
+
+Joseph Li @josephyli May 05 14:46
+what did Cynthia type to stage only part of the file? git add -p isn’t working (says no changes)
+
+Briana Swift @brianamarie May 05 14:46
+@Igor-Shampion Git thinks you're still in a merge. That's from the merge conflict earlier. I'd type git merge --abort then git pull, then try to commit your changes
+
+Hector Alfaro @halfaro1 May 05 14:46
+git add --patch but it only works when you have file staged for commits @josephyli
+
+Briana Swift @brianamarie May 05 14:47
+@josephyli git add -p was for patching, hunking changes separately. Now she's showing a different command, git diff. For now, I'd hold back on practicing and focus on watching to make sure you're on the same page with Cynthia.
+I'll post notes soon so we can make sure you have all the info you need @josephyli :smile:
+
+Igor Sobot @Igor-Shampion May 05 14:47
+thx
+
+Josh Moyers @carbinemonoxide May 05 14:51
+Can you revert a revert?
+
+Briana Swift @brianamarie May 05 14:51
+@carbinemonoxide Yep! It gets a little inceptiony if you go too crazy though :wink:
+
+Kartiki Joshi @kartikijoshi May 05 14:51
+Thank you githubteacher for today`s session :)
+
+Antonio Medrano @antoniomedrano May 05 14:52
+[My-Computer]~/Desktop/scratch/git-essentials-may-2016 $ git pull
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+
+Adam Horrigan @adhorrig May 05 14:53
+git alias best tip for me from the session :D
+
+Joby Joseph @jobyjoseph May 05 14:53
+@halfaro1 can you please share the notes?
+
+manojdatar @manojdatar May 05 14:53
+is there any control over who can revert and who cannot such as controlled by a "role" for example?
+
+Briana Swift @brianamarie May 05 14:54
+Notes from third section, day 1:
+More Collaborating
+Update your local repository
+View all branches, even remote: git branch --all
+Move to master: git checkout master
+Fetch changes from remote: git fetch
+Merge those changes into your own local repository: git merge
+Combine those tasks with: git pull
+Let's fill out more of our own documents
+Open your document within your own branch
+Add details about what to do & where to eat
+Save & close
+See where we are with git status
+Two stage commit (git add . & git commit -m "commit message")
+Patch
+We want to make small, bite size commits - that's the workflow we suggest :+1: This isolates changes so if something goes wrong, we can easily troubleshoot.
+Separate changes: git add -p
+Split them: s
+Accept the default split: y
+Do not stage the others in the same commit: n
+Commit and Push
+git commit -m "message"
+git status
+git branch
+git merge branchname
+git push
+Uh oh, merge conflict!!!
+git pull
+git push
+Doing 'git pull' and 'git push' will not normally have to happen so many times: since there are so many of us doing this at once, continue with 'git pull' and 'git push' until it will go through.
+Helpful commands
+git diff: See local changes between working, staging, and history
+If we have added more changes to a file that we've already created, we can see differences between them with git diff
+Add to a file just for this example: echo "Here is one line of text" >> file2.md
+See status: git status
+Stage the file: git add .
+git commit -m "commit message"
+See status: git status
+Add more text: echo "Here is another line of text" >> file2.md
+Stage: git add .
+More text: echo "Third line of text" >> file2.md
+See differences with git diff
+git diff
+git diff --staged
+git revert: Undo everything that happened in one specific commit
+git revert <first-5-characters-of-commit-sha>
+
+David Pearson @GrecoJava May 05 14:54
+for the classes next week - Intro to GitHub, GitJub for Everyone, etc. will they also use gitter?
+
+chenulu @chenulu May 05 14:54
+@brianamarie: Are you going to send the video of today's recording (today) or after tomorrow's class?
+
+Briana Swift @brianamarie May 05 14:54
+@GrecoJava Yes, they will.
+@chenulu I'm not sure, I'm sorry that I can't give you a solid answer. :worried: If I knew, I'd tell you.
+
+beardofedu @beardofedu May 05 14:55
+@crichID @halfaro1 @brianamarie thanks for the session :smile:
+
+Hector Alfaro @halfaro1 May 05 14:55
+@chenulu and @brianamarie usually goes out within a couple of days of the second session ending, we just need a little time to process and upload our recording
+
+Briana Swift @brianamarie May 05 14:55
+@antoniomedrano Are you having a merge conflict, or have you not committed your changes?
+
+Hector Alfaro @halfaro1 May 05 14:56
+:wave: good to see you @beardofedu :D
+
+tpvlaxmi @tpvlaxmi May 05 14:56
+Thanks for the session. It is helpful
+
+Briana Swift @brianamarie May 05 14:56
+@manojdatar Yes. Owner, the person who creates a repository, Admin, someone who can only be selected by the owner, and Collaborator, someone who is chosen by owner or admin, will have access to who can make changes, including revert.
+
+manojdatar @manojdatar May 05 14:57
+ok cool, thanks @brianamarie
+
+Briana Swift @brianamarie May 05 14:57
+@manojdatar There are more granular permissions from 'org' accounts on GitHub, this repo was from a 'user' account.
+
+atulsingh008 @atulsingh008 May 05 14:57
+Thanks for the session and the QA session was really helpful...:)
+
+manojdatar @manojdatar May 05 14:58
+ok that's good @brianamarie - i work for a 100 year old enterprise so these things are always asked first out there :smile:
+
+Briana Swift @brianamarie May 05 14:58
+Haha I understand - that kind of thing matters! :smile:
+
+Josh Moyers @carbinemonoxide May 05 15:00
+Thanks for the class. Learned a lot!
+
+Igor Sobot @Igor-Shampion May 05 15:00
+Thank you for your effort! ;)
+
+Robert Wayne @virtutemRob May 05 15:00
+Thank you!
+
+manojdatar @manojdatar May 05 15:00
+thanks guys! helpful session :+1:
+
+atulsingh008 @atulsingh008 May 05 15:00
+how to save this chat log?
+
+tpvlaxmi @tpvlaxmi May 05 15:00
+do we need register again to join tomorrow's class?
+
+Joseph Li @josephyli May 05 15:01
+Yes this was super helpful. Echoing others, Is there a way to save this chat log?
+
+Hector Alfaro @halfaro1 May 05 15:01
+@atulsingh008 and @josephyli this URL will remain live, there's also an archive all the way on the top right of the chat, and after tomorrow I'll save it and include it in the class repo
+
+Briana Swift @brianamarie May 05 15:01
+@tpvlaxmi no need to re-register, you should get another email tomorrow with a link to join the webinar. :smile:
+
+Hector Alfaro @halfaro1 May 05 15:01
+@tpvlaxmi the registration for today will be good for tomorrow also, you don't need to register separately
+
+Briana Swift @brianamarie May 05 15:02
+Boom, jinx @halfaro1 :laughing:
+Git Essentials Day 1 is completed. We'll be back in this Gitter room tomorrow to help out :smile:
+
+atulsingh008 @atulsingh008 May 05 15:02
+thanks...:)
+
+Cynthia Rich @crichID May 05 15:04
+@chenulu I will do my best to get it processed and posted today - I am at the mercy of ScreenFlow :wink:
+
+manjeet88 @manjeet88 May 05 15:10
+Good session , Thanks @crichID @brianamarie @halfaro1
+
+Ke Ma @ankermarco May 05 15:22
+@adhorrig "git alias best tip for me from the session" :thumbsup:
+
+Hamid Rohani @hamid914 May 05 15:36
+@crichID Thank you. That was a good, and well designed training session.
+
+Hector Alfaro @halfaro1 12:38
+@ankermarco @tpvlaxmi so when we do git push from now on it'll push to the remote on your personal repo
+
+Briana Swift @brianamarie 12:39
+@hamid914 @tpvlaxmi Try using origin instead of mygame
+
+Pramod R. @pramodr 12:39
+If everything is fit in a hashstring, why missing parent breaks commit history
+
+Hamid Rohani @hamid914 12:40
+@brianamarie the result is as same as before
+
+Ke Ma @ankermarco 12:40
+@halfaro1 do you mean when I did git remote add mygame [url] it already set up-stream?
+
+Hector Alfaro @halfaro1 12:40
+@ankermarco no, that command added that url to the list of remotes using the alias mygame
+
+Hamid Rohani @hamid914 12:41
+@brianamarie Excuse me, What was the purpose of the git branch --set-upstream-to gh-pges mygame/gh-pages command?
+
+Ke Ma @ankermarco 12:41
+@halfaro1 I used to see people did git remove add -u [url] instead git remote add [url]
+
+Briana Swift @brianamarie 12:41
+@hamid914 Ok. We were setting a relationship between the branch you have locally and the branch on the remote repository. That way, Git can keep the branches aligned in the future without needing extra information every time you push. Just to check, you have created a branch locally, correct?
+
+Ke Ma @ankermarco 12:41
+@halfaro1 I mean git remote not git remove
+
+Hector Alfaro @halfaro1 12:43
+Ah I see @ankermarco, we did git remote add mygame <url> in class
+
+chenulu @chenulu 12:45
+@crichID: Can you go back to your terminal.. I have pushed the changes but still get a 404
+
+Hamid Rohani @hamid914 12:45
+@brianamarie yes, I think. this is the output of git branch --all:
+* gh-pages
+  remotes/mygame/gh-pages
+  remotes/origin/HEAD -> origin/gh-pages
+  remotes/origin/game-instructions
+  remotes/origin/gh-pages
+  remotes/origin/shape-colors
+  remotes/origin/stats-update
+
+Briana Swift @brianamarie 12:46
+@hamid914 Fantastic, thank you for the extra information. Is the command you shared above, git branch --set-upstream-to gh-pges mygame/gh-pages, copied and pasted from your terminal? There may be a spelling error in the first gh-pages
+
+jtfernandes-sky @jtfernandes-sky 12:46
+When I do git status, it says "HEAD detached at mygame/gh-pages". What does this means?
+
+Hector Alfaro @halfaro1 12:47
+@chenulu did you rename inde.html to index.html?
+
+maxvohiken @maxvohiken 12:47
+what was the diff command again?
+
+tpvlaxmi @tpvlaxmi 12:47
+$ git branch --all
+gh-pages
+remotes/mygame/gh-pages
+remotes/origin/HEAD -> origin/gh-pages
+remotes/origin/game-instructions
+remotes/origin/gh-pages
+remotes/origin/shape-colors
+remotes/origin/stats-update
+$ git branch --set-upstream-to gh-pages mygame/gh-pages
+fatal: branch 'mygame/gh-pages' does not exist
+
+chenulu @chenulu 12:47
+@halfaro1 Yes
+
+Hector Alfaro @halfaro1 12:48
+@chenulu and committed and pushed the changes?
+
+chenulu @chenulu 12:49
+@halfaro1 : git revert 2710
+
+Hamid Rohani @hamid914 12:49
+@brianamarie yes, I copied that command again from your post. and again that error
+
+Hector Alfaro @halfaro1 12:50
+@maxvohiken we'll get the command line history posted soon, and Briana is working on a summary, hang tight
+
+Briana Swift @brianamarie 12:50
+Okay. What happens if you try git push -u mygame gh-pages? Did your earlier changes push up?
+
+Hector Alfaro @halfaro1 12:51
+@jtfernandes-sky HEAD is a pointer to where you're currently checked out, you can do git checkout gh-pages or git checkout .
+
+Lime @limedss 12:51
+@halfaro1 how do we see from git lol the changes is index.html correspond the the sha?
+
+tpvlaxmi @tpvlaxmi 12:52
+Here is my o/p from push $ git push -u mygame gh-pages
+Branch gh-pages set up to track remote branch gh-pages from mygame.
+Everything up-to-date
+
+Hector Alfaro @halfaro1 12:52
+@tpvlaxmi what are you trying to do with those commands?
+
+Briana Swift @brianamarie 12:52
+:tada: That's great @tpvlaxmi , that's what we were looking for :smile:
+
+tpvlaxmi @tpvlaxmi 12:53
+Getting error while doing up stream @tpvlaxmi
+$ git branch --all
+gh-pages
+remotes/mygame/gh-pages
+remotes/origin/HEAD -> origin/gh-pages
+remotes/origin/game-instructions
+remotes/origin/gh-pages
+remotes/origin/shape-colors
+remotes/origin/stats-update
+$ git branch --set-upstream-to gh-pages mygame/gh-pages
+fatal: branch 'mygame/gh-pages' does not exist
+
+Briana Swift @brianamarie 12:53
+@tpvlaxmi Now that it has worked with the -u flag, you no longer need the set-upstream command. Does that make sense?
+
+Hamid Rohani @hamid914 12:54
+@brianamarie I executed git push before you said:
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 285 bytes | 0 bytes/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+To https://github.com/hamid914/github-games.git
+   ce05437..3664878  gh-pages -> gh-pages
+and now git push -u mygame gh-pages:
+Branch gh-pages set up to track remote branch gh-pages from mygame.
+Everything up-to-date
+I get fatal: branch 'mygame/gh-pages' does not exist error again but my http://hamid914.github.io/github-games/ is up.
+
+Briana Swift @brianamarie 12:54
+They mean the same thing, one is just shorter.
+@hamid914 Do you get that error after the up to date message?
+
+Hamid Rohani @hamid914 12:56
+@brianamarie unfortunately yes!
+
+Briana Swift @brianamarie 12:57
+Ok. Thank you for being so patient. We will find an answer for you :smile:
+
+Hector Alfaro @halfaro1 12:57
+@limedss git log -p <sha> will show you the differences introduced in a particular commit
+
+Lime @limedss 12:59
+@halfaro1 thanks. got it. :smile:
+
+Mark Pereira @futurepr0n 12:59
+Unfortunately I am unable to get the page to launch -- http://futurepr0n.github.io/github-games
+My settings on the repo show that Your site is ready to be published at http://futurepr0n.github.io/github-games. - But since initially pushing everything I have still not gotten the game homepage to deploy
+
+Briana Swift @brianamarie 13:00
+Part 1 Recap:
+Practicing Open Source Workflows
+Create your own copy
+Go to the Github Games repository
+gh-pages is the default branch for this repository, not master like yesterday
+When gh-pages is the default branch, you can see the code as a GitHub Pages site. This class's link is here
+Create a new repository
+You are the owner, and the repository name can be anything. Ours is github-games.
+Don't select any options, just click 'create repository'.
+Go back to the original repository, Github Games owned by 'GitHub School'
+To clone this locally, copy the 'clone url'. Go to the command line and clone: git clone <https-url-from-clipboard>
+Make our changes
+We need to change a link in the workflow.
+Create a branch locally and checkout to that branch: git checkout -b readme-updates
+See all branches: git branch --all
+Open the README.md file from the readme-updates branch.
+Update the link in line 5 to replace "githubschool" with your own username.
+Check the status: git status
+Two step commit:
+git add FILENAME or git add -A, then git status to check
+git commit -m "Enter commit message"
+Check the log: git log --oneline --graph --decorate --all, or use the alias from yesterday, git lol
+Merge our changes to gh-pages branch
+Check out to the branch that we are merging into: git checkout gh-pages
+See log: git lol
+Merge the readme-update branch: git merge readme-updates
+See what has merged: git branch --merged
+Delete the branch we just created and merged: git branch -d readme-updates
+Push our work to the remote repository
+See the configured remotes: git remote -v
+The remotes listed do not allow us to push, so we need another option
+Add another remote that we will have permission to
+Copy the URL from the repository you created on GitHub.com
+git remote add mygame <copied-URL>
+Push up your changes to your repository: git push -u mygame gh-pages.
+The u flag sets a relationship with the branch in the remote repository.
+Check your remotes: git remote -v.
+Fixing the broken game
+See the commit history: git lol.
+Find the commit where index.html was renamed to inde.html and copy the first 4 characters of that commit ID
+Revert that commit: git revert <first-4-characters>.
+Complete the commit message in your text editor, save, and close.
+Push your local changes to the remote repository: git push mygame.
+See your working game by going to the new link in the README on your remote repository.
+Merge Conflicts
+See our recent history with git lol
+Checkout to the main branch: git checkout gh-pages
+Try to merge stats-update into gh-pages: git merge stats-update
+This should create a merge conflict!
+Get more information: git status
+See the commits: git lol
+Git tells us which file has a conflict, and in this case it's 'index.html'.
+Open that file: atom index.html
+Within that file, look for merge conflict markers. In this file they're between lines 14 and 18.
+Make changes so there are no conflicts.
+Two stage commit
+Add the file: git add -A
+Check the status: git status
+Commit the change: git commit
+
+Lime @limedss 13:02
+what is command to set git config core.editor to notepad++ or sublime?
+
+beardofedu @beardofedu 13:03
+@limedss i found this article yesterday
+http://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits
+
+Mark Pereira @futurepr0n 13:04
+@limedss its git --config core.editor subl (for sublime text)
+but you need to have the right path set in your system variables
+
+Lime @limedss 13:05
+@beardofedu @futurepr0n thanks
+
+Mark Pereira @futurepr0n 13:06
+can anyone take a look and see why my page doesnt work?? https://github.com/futurepr0n/github-games -- I had a successful revert and push - but my website 404's
+
+Hamid Rohani @hamid914 13:06
+The commit message should not be empty. If so, this error Aborting commit due to empty commit message. will be shown.
+
+Briana Swift @brianamarie 13:07
+We are working on it @futurepr0n :thumbsup: should have an answer soon
+
+kgodoy @kgodoy 13:08
+Weird, I was able to commit without message.
+Shouldn't have but did...
+
+Hamid Rohani @hamid914 13:11
+I have changed lines 15,17. now both are the same. and then git add -A and git commit but there is <<<<<<< HEAD and >>>>>>> stats-update lines yet in index.html. Is it correct?
+
+Briana Swift @brianamarie 13:12
+@hamid914 Yes, those are supposed to be there at first. As you make your changes, erase those merge markers so Git will know that you've addressed the conflict.
+
+Hamid Rohani @hamid914 13:14
+@brianamarie Should I manually delete markers before commit?
+
+Hector Alfaro @halfaro1 13:14
+Alright @futurepr0n I think we figured out what's going on in your case. These commands should get you back on track:
+git pull
+git revert a308d
+git push
+
+Briana Swift @brianamarie 13:14
+@hamid914 Yes :thumbsup: you're right
+
+Hector Alfaro @halfaro1 13:14
+@futurepr0n your text editor will pop up with the revert command, accept and save the message
+
+Mark Pereira @futurepr0n 13:16
+@halfaro1 unfortunately still issue is persisting
+
+Hector Alfaro @halfaro1 13:17
+@futurepr0n looking at your repo now :eyes: ...
+
+Hamid Rohani @hamid914 13:20
+I didn't get what git merge --abort does :(
+
+Hector Alfaro @halfaro1 13:21
+@futurepr0n you did it correctly :clap: but not sure why your page isn't showing yet, I'm going to keep working on it but you may want to pay attention to the merge conflict and pick up where you left off from the video once we get it resolved
+
+JohnAtCL @JohnAtCL 13:21
+@pramodr
+
+Pramod R. @pramodr 13:21
+Do we need to delete the merge conflict markers every time?
+@JohnAtCL Hi
+
+Mark Pereira @futurepr0n 13:21
+Might need to re-attend this course, this particular part I have been missing a few of the steps due to troubleshooting - but I really am enjoying the pace and the course. Thanks for the help @halfaro1
+
+Hector Alfaro @halfaro1 13:21
+@pramodr yes, they're what show you where the conflicts are
+
+JohnAtCL @JohnAtCL 13:21
+inde.html and index.html are 2 different files, not sure why showing up as conflict?
+
+Hector Alfaro @halfaro1 13:21
+@futurepr0n you'll get a link to the video for both days also
+@JohnAtCL index.html and inde.html are actually the same file in this case, Cynthia discussed it a little earlier but I'll have her cover it again
+
+ZFDesign @zfdesign 13:22
+Just made it, was on my way in from work
+will follow up the notes here
+
+Hector Alfaro @halfaro1 13:24
+welcome @zfdesign :wave:
+
+maxvohiken @maxvohiken 13:24
+I merged the shape-colors branch before making any local changes. So there were no conflicts in the merge. Is there a way to undo the merge to the shape-colors branch?
+
+tpvlaxmi @tpvlaxmi 13:24
+Does Git recommend doing reverse merge? when we should be doing this?
+
+Hector Alfaro @halfaro1 13:27
+@tpvlaxmi queueing your question up for a verbal response :smile:
+
+ZFDesign @zfdesign 13:28
+Hi @halfaro1
+am I a collaborator
+trying to pull upstream ...
+
+Hector Alfaro @halfaro1 13:29
+@zfdesign you don't need to be a collaborator for today's process, you'll be working on your own repo under your user account on GitHub
+@brianamarie posted two summaries if you scroll up
+
+ZFDesign @zfdesign 13:29
+ah I think I am trying to pull master
+and there is no master
+?
+
+Hector Alfaro @halfaro1 13:29
+if you send me the history of your commands I can try to troubleshoot @zfdesign
+
+tpvlaxmi @tpvlaxmi 13:30
+@halfaro1 Thanks. I am adding few more content. We can also do rebase and merge right insteading of doing reverse merge. In what scenarios we should be doing revert merge.
+
+Hamid Rohani @hamid914 13:30
+Is git mv does the same as mv and then git add -A?
+
+Hector Alfaro @halfaro1 13:30
+@hamid914 you've got it, it's a shortcut command :)
+@maxvohiken the git revert command is the quickest and safest way to revert a merge
+@maxvohiken I apologize I didn't see your question earlier
+
+Antonio Medrano @antoniomedrano 13:35
+what is the difference between git add . and git add *?
+
+ZFDesign @zfdesign 13:35
+I forked, cloned added remote and was trying to 'pull upstream master'
+but there seem to be that there is no master
+on the remote
+
+Hector Alfaro @halfaro1 13:36
+@zfdesign for today's examples we are working on a gh-pages branch
+
+ZFDesign @zfdesign 13:36
+so it's all fie, thank you
+yep
+
+Hector Alfaro @halfaro1 13:36
+@zfdesign it's because we're using GitHub pages which lives on gh-pages instead of master as the default branch, also a good model of how to work on longer lived feature branches
+@antoniomedrano the * is legal so should have same effect
+
+Briana Swift @brianamarie 13:39
+@antoniomedrano Good stackoverflow on that here if you're interested :smile:
+
+tpvlaxmi @tpvlaxmi 13:40
+status-update branch is incorect
+ignore my message
+
+Hector Alfaro @halfaro1 13:41
+Good find @brianamarie -- wonder if you'd also lose the recursive functionality of git add .
+
+Hector Alfaro @halfaro1 13:47
+How's @/all doing? Make sure you're working on a separate repo you've created locally for this example :)
+
+Hamid Rohani @hamid914 13:47
+touch file{1,2,3,4}.md is better :smile:
+
+Hector Alfaro @halfaro1 13:47
+@hamid914 show off :P
+
+Hamid Rohani @hamid914 13:48
+hahaha :smile:
+
+Kartiki Joshi @kartikijoshi 13:49
+hi..what is the command to remove global username and/or email?
+
+Hector Alfaro @halfaro1 13:49
+@kartikijoshi would you like to replace the username/email?
+
+Kartiki Joshi @kartikijoshi 13:49
+yes.
+
+Hector Alfaro @halfaro1 13:50
+@kartikijoshi
+git config --global user.name "<human name>"
+git config --global user.email <same-email-as-github>
+
+tpvlaxmi @tpvlaxmi 13:50
+How to unstage a file?
+I mean how to unstage a specific file
+
+Ke Ma @ankermarco 13:51
+git checkout -- file
+
+Briana Swift @brianamarie 13:51
+Recap of section 2, day 2:
+Practicing Merge Conflicts Again
+Create a local copy of the branch shape-colors: git checkout shape-colors
+Open 'index.html' locally
+Change the colors in lines 115-121
+Save the changes, close the text editor
+See status: git status
+Stage the changes: git add -A
+See status: git status
+Commit the staged changes: git commit -m "changing the colors of my game"
+Go back to the main branch: git checkout gh-pages
+Try to merge the new branch: git merge shape-colors
+We are going to do this differently this time. Let's exit: git merge --abort
+Reverse merge
+Go back to our feature branch: git checkout shape-colors
+Merge the other direction: git merge gh-pages
+We have a conflict. To fix this:
+Open the file. (We use Atom: atom index.html)
+Find the merge conflict markers and correct any duplicate or different information (between lines 115-131)
+Save the changes and exit the text editor.
+Stage the changes: git add -A
+Commit the changes: git commit -m "commit message"
+Merge into gh-pages
+Checkout to the deployed branch: git checkout gh-pages
+Merge the changes: git merge shape-colors
+Push the changes to the remote repository: git push
+New Feature
+Create a new branch and checkout to that branch: git checkout -b slow-down
+Open index.html. We are going to change the speed in the index.html file, line 78.
+On line 78, change the speed to be slower (or faster if you'd like!)
+Save the file and close the text editor.
+Make a new directory called images: mkdir images.
+Hunk the changes with a patch:
+git add -p
+y
+n
+git status
+Confirm changes with git diff
+git commit -m "enter commit message"
+git status
+git diff --color-words HEAD
+git add .
+git commit --m "commit message"
+git checkout gh-pages
+git merge slow-down
+git push
+Pull remote changes to the local repository
+git fetch origin
+cat README.md
+git merge game-instructions
+git push
+Practice rewriting history
+CD back into your preferred directory to create a new repository
+Create a new repository locally: git initializing practice-repo
+CD into that repository: cd practice-repo
+Create a README: touch README.md
+Add the readme to the repository: git add README.md
+Commit the readme: git commit -m "init the repository with a README"
+We are going to use empty files to practice rewriting history
+Create four new files: touch file1.md file2.md file3.md file4.md
+Add and commit all of those files separately
+git add *1*
+git commit -m "adding file 1"
+git add *2*
+git commit -m "adding file 2"
+git add *3*
+git commit -m "adding file 3"
+git add *4*
+git commit -m "adding file 4"
+
+Kartiki Joshi @kartikijoshi 13:51
+Thanks Hector (y)
+
+Lime @limedss 13:52
+you can store all your git command history. history>git-practice-history.txt
+
+Hector Alfaro @halfaro1 13:53
+Just wanted to say I'm :heart: how helpful this group is being to one another. It's a teacher's dream :cloud: :sparkles:
+
+Pramod R. @pramodr 13:53
+Cynthia's dog is quite today? lol. No barking in the background! :smile:
+quiet*
+
+Hector Alfaro @halfaro1 13:54
+@pramodr haha that's true! I noticed that too
+
+Cynthia Rich @crichID 13:54
+@pramodr I gave them treats so they are both busy :wink:
+
+Igor Sobot @Igor-Shampion 13:55
+good work Cynthia
+
+atulsingh008 @atulsingh008 13:56
+i love all this and i really like what you peoples are doing
+great job...:)
+
+Pramod R. @pramodr 13:58
+@crichID Aww. :dog2: & :dog: = :smile:
+
+tpvlaxmi @tpvlaxmi 13:58
+What is significant of git checkout -- <file>, is it unstaging and make that file untracked?
+
+Pramod R. @pramodr 14:00
+I really hope the videos will be processed before Sunday noon so we can re-watch them before Game Of Thrones and Silicon Valley. lol
+
+Robert Wayne @virtutemRob 14:00
+GoT, ftw!
+
+jinnatan @jinnatan 14:01
+when we pull remote changes to the local repository, we can also use git pull instead of git fetch and merge , right?
+
+Hector Alfaro @halfaro1 14:01
+@jinnatan :+1:
+
+kgodoy @kgodoy 14:01
+I am enjoying this essentials class so thank you to the instructor and all those that organized this!
+
+Kartiki Joshi @kartikijoshi 14:02
+git remote -v gives no output - current practice repo
+is that ok?
+
+Hector Alfaro @halfaro1 14:02
+@kartikijoshi correct there is no remote for the current practice repo
+@tpvlaxmi it essentially checks you out to a previous state of the repository
+
+Kartiki Joshi @kartikijoshi 14:03
+so we dont want to push as of now. ok..thanks
+
+Hamid Rohani @hamid914 14:04
+Excuse me for repeating my question: I didn't get what git merge --abort does.
+
+Hector Alfaro @halfaro1 14:04
+@pramodr nothing sounds more exciting than a night of Git Essentials followed by GoT and Silicon Valley. Well maybe Git Essentials followed by Silicon Valley, but GoT definitely doesn't fit in there
+
+Cynthia Rich @crichID 14:05
+@hamid914 if you are in the middle of a merge, git merge —abort will allow you to stop the merge and go back to work!
+
+Pramod R. @pramodr 14:05
+@halfaro1 lol true
+
+Hector Alfaro @halfaro1 14:06
+@hamid914 don't apologize! the great thing about Gitter is that everyone can chime it, it's also the worst thing about Gitter, sometimes some questions are missed in the noise :hear_no_evil:
+
+Adam Horrigan @adhorrig 14:08
+can't see the screen, poll is still up.. only me?
+
+David Pearson @GrecoJava 14:08
+the screen is still on the poll
+
+Hamid Rohani @hamid914 14:09
+:smile: I had network problems at that part of workflow
+
+Briana Swift @brianamarie 14:09
+Resource Cynthia is looking at here: https://training.github.com/kit/modules/CONT-CLI-19_Resetting-history.html
+
+Hamid Rohani @hamid914 14:10
+@brianamarie thanks
+
+tpvlaxmi @tpvlaxmi 14:10
+Thanks for your replies
+
+Kartiki Joshi @kartikijoshi 14:13
+can someone plz send lol alias setting command?
+
+Briana Swift @brianamarie 14:14
+@kartikijoshi git config --global alias.lol "log --oneline --graph --decorate --all"
+
+Kartiki Joshi @kartikijoshi 14:14
+thanks Briana :)
+
+Hamid Rohani @hamid914 14:18
+does git reset act like git add --mixed?
+
+Hector Alfaro @halfaro1 14:20
+@hamid914 :+1:
+
+Hamid Rohani @hamid914 14:26
+With the cherry-pick command, why git reset --hard is destructive?
+
+Hector Alfaro @halfaro1 14:28
+@hamid914 they're both pretty destructive, we only suggest using these for local changes, we suggest using git revert whenever possible
+Everything we're discussing this hour has the same caveat
+
+tpvlaxmi @tpvlaxmi 14:30
+When we are cherry-picking, does it merge the file with current branch?
+
+Hector Alfaro @halfaro1 14:31
+@tpvlaxmi it cherry picks the commit to the current branch
+
+ZFDesign @zfdesign 14:31
+@halfaro1 could you please paste the git editor set up command
+
+Hector Alfaro @halfaro1 14:31
+@tpvlaxmi remember that a commit is a snapshot of our working directory at the time the commit was taken
+
+ZFDesign @zfdesign 14:31
+I have set up Sublime and get
+/Applications/Xcode.app/Contents/Developer/usr/libexec/git-core/git-rebase--interactive: line 259: subl: command not found
+
+Mark Pereira @futurepr0n 14:32
+Hi, My editor ended up causing the following: $ git rebase -i master
+Successfully rebased and updated refs/heads/rebase-me.
+rm: cannot remove `C:/Users/futurepr0n/Documents/Development/GitHub-Training/pra
+ctice-repo/.git/rebase-merge': Device or resource busy
+
+tpvlaxmi @tpvlaxmi 14:32
+@halfaro1 Thanks. If that commit updated one file, same file in current branch. If it commits does it merge?
+
+Mark Pereira @futurepr0n 14:32
+now i see futurepr0n@futurepr0n-Lap MINGW64 ~/Documents/Development/GitHub-Training/practi
+ce-repo (|REBASE-m)
+do I need to do anything to lose the |REBASE-m
+ran rebase --continue and worked
+
+Hector Alfaro @halfaro1 14:34
+@zfdesign but to answer your question the command is git config --global core.editor <editor-from-terminal>
+
+Kartiki Joshi @kartikijoshi 14:34
+how did u change the order of commits?
+missed that part |
+
+ZFDesign @zfdesign 14:36
+Thank you @halfaro1
+
+Kartiki Joshi @kartikijoshi 14:36
+Thanks Cynthia :)
+
+JohnAtCL @JohnAtCL 14:37
+When do we need to use rebase?
+
+jtfernandes-sky @jtfernandes-sky 14:37
+What if I want to re-order commits in one branch?
+
+Briana Swift @brianamarie 14:37
+@zfdesign I personally don't use Sublime, but I found this resource that might be helpful: Launch Sublime Text 2 from text editor
+
+ZFDesign @zfdesign 14:37
+Thank you @brianamarie
+
+tpvlaxmi @tpvlaxmi 14:38
+Thanks @crichID
+
+Briana Swift @brianamarie 14:39
+@jtfernandes-sky I'm not sure what you mean. Do you mean reordering commits that you haven't yet pushed and you also don't want to merge?
+
+Hector Alfaro @halfaro1 14:39
+@JohnAtCL you would use rebase when there's a need to apply changes from one branch to another
+
+jtfernandes-sky @jtfernandes-sky 14:39
+yes @brianamarie
+
+JohnAtCL @JohnAtCL 14:39
+ty
+
+Briana Swift @brianamarie 14:42
+@jtfernandes-sky Okay, I think I understand. Why would this be something you want to do? I'm having trouble understanding because I'm thinking of commits on a branch that are all local are probably linear, and reordering them would confuse the parents of each commit.
+
+jtfernandes-sky @jtfernandes-sky 14:42
+Not really something I would like to do. I was just curious if that is possible since you can re-order commits when rebasing
+
+tpvlaxmi @tpvlaxmi 14:42
+When we rebase branch, does it create commit?
+
+Briana Swift @brianamarie 14:43
+@jtfernandes-sky Technically, not with rebase, but there are similar commands that could help reorder local history like git reset and git commit --amend :smile: Thanks for clarifying your question for me.
+
+Hector Alfaro @halfaro1 14:44
+Q&A time :) feel free to ask any questions you'd like us to discuss.
+
+jtfernandes-sky @jtfernandes-sky 14:44
+Thanks @brianamarie :D
+
+tpvlaxmi @tpvlaxmi 14:44
+Thanks the session, this is really helpful.
+
+Ke Ma @ankermarco 14:45
+bravo @brianamarie @crichID
+
+JohnAtCL @JohnAtCL 14:45
+You have a Git ref card?
+
+tpvlaxmi @tpvlaxmi 14:45
+@crichID When you were answering the question related to reverse merge vs rebase? reverse merge creates merge, but rebase does not, correct?
+
+Hamid Rohani @hamid914 14:47
+For a personal workflow, should i repeatedly 1.create branches 2. work on branches 3. commit on the branch 4. merge with master ? or some times its better to work directly on master?
+
+Lime @limedss 14:47
+I heard of git refs. what is the diff vs reflog?
+
+jinnatan @jinnatan 14:47
+if you use git revert , but the modification you reverted is modified by another commit, what will happen?
+
+tpvlaxmi @tpvlaxmi 14:47
+When we are working on feature branches, when we merge to master. Does git keeps all commits done in feature branch?
+
+Hamid Rohani @hamid914 14:50
+@crichID Thanks
+
+Lime @limedss 14:50
+@crichID thanks. got it
+
+Pramod R. @pramodr 14:51
+How long is this Chat logs available at this URL?
+
+manjeet88 @manjeet88 14:51
+What's the best way to squash the commits like want to make my last 10 commits as 1 commit
+
+Hector Alfaro @halfaro1 14:51
+@pramodr I'm not sure but I'll create a backup of the chat log and place it in our class repo
+
+Pramod R. @pramodr 14:51
+@halfaro1 thank you
+
+kgodoy @kgodoy 14:52
+Are we going to get the last 45 minutes notes?
+
+fabgonzalez @fabgonzalez 14:52
+What are the function of using tags in git? how should they be included in the branching workflow? @brianamarie @halfaro1
+
+atulsingh008 @atulsingh008 14:52
+I am checking out a commit and got an error message as
+"fatal: reference is not a tree <SHA>"?
+
+Briana Swift @brianamarie 14:53
+Recap from last section:
+Git Reset
+Find resource for git reset here
+Be careful with git reset when pushing to a remote repository. Any time you push a commit, you should not use reset locally again. The commit ID will change, and that will alter their history in a possibly dangerous way.
+Three types of reset
+git reset --soft
+Commits will go into the staging area
+git reset --mixed
+Default behavior of git reset
+Commits will go into the working directory
+git reset --hard
+Commits will be deleted
+Practice git reset --soft
+See history: git lol
+Go back two commits: git reset --soft HEAD~2
+See history now: git lol
+Check status: git status
+Commit those changes: git commit -m "adding files 3 and 4"
+Check status: git status
+See history: git lol
+Practice git reset/git reset --mixed
+Go back with git reset <first-4-chars-of-commit-adding-file-2>
+Check status: git status
+See history: git lol
+Re add those files
+-Re-add file 3: git add *3*
+-Re-commit file 3: git commit -m "re-adding file 3"
+-Re-add file 4: git add *4*
+-Re-commit file 4: git commit -m "re-adding file 4"
+Notice that the Commit ID is different than the first time those files were committed
+Practice git reset --hard
+git reset --hard <first-4-char-of-initalizing-repository>
+This is a destructive command!
+However, if you are only working locally, you can rescue commits using git reflog.
+git reflog does not stick around forever!
+It only lasts for 90 days for a reachable commit.
+Unreachable commits only last for 30 days.
+These changes can be made in Git's configurations
+The reflog is only local - nobody else with a copy of the repository will have access to your reflog.
+Using Reflog and Cherry-pick
+git reflog to find that commit where we added file 2
+git cherry-pick <first-4-chars-of-commit>
+See history: git lol
+Rebase
+Create a new branch and checkout to that branch: git checkout -b rebase-me
+Add files to that branch using whatever method you prefer
+You can create them from scratch if you'd like.
+Cynthia used git cherry pick to get existing files onto that branch
+Checkout to the master branch: git checkout master
+Create another file on master using whatever method you prefer
+See history of commits: git lol
+Go back to the feature branch: git checkout rebase-me
+Note: With merge, you want to be on the branch that you are merging into. With rebase, you want to be on the branch that you are moving.
+Rebase: git rebase -i master
+Note: -i means "interactive". This gives more control over the orders of the commits that will be replayed onto master branch.
+See history: git lol
+Use git reflog to see all of the commits that HEAD has been pointed to
+Great Resource
+Git Cheat Sheet
+ProGit by Scott Chacon and Ben Straub
+Git Documentation
+
+kgodoy @kgodoy 14:53
+Awesome! Thanks!
+
+Alan Glennon @glennon 14:53
+.gitignore seems straightforward. Any non-obvious secrets / best practices?
+
+Lime @limedss 14:56
+what happen to the tag if reset is performed?
+git revert I meant
+
+Ke Ma @ankermarco 14:58
+what do you use tag for?
+
+manjeet88 @manjeet88 14:59
+Does the tag create from the code in branch or from the workspace (cloned copy )?
+
+tpvlaxmi @tpvlaxmi 14:59
+Thanks you. looking forward on recording sessions.
+
+Robert Wayne @virtutemRob 15:00
+Thank you for a great session!
+
+Igor Sobot @Igor-Shampion 15:01
+hey hey, i love gradle
+
+Ke Ma @ankermarco 15:02
+@crichID thanks
+
+Lime @limedss 15:03
+@crichID understood. thanks. :)
+
+Hamid Rohani @hamid914 15:03
+@crichID Do you recommend using hub command instead of git command?
+
+mvnu-awillia2 @mvnu-awillia2 15:04
+Thank you
+
+ZFDesign @zfdesign 15:04
+liking the QA session
+
+Ke Ma @ankermarco 15:04
+@crichID when do we expect to receive video record of yesterday and today sessions? they are great!
+
+Hamid Rohani @hamid914 15:04
+@crichID thanks
+
+jinnatan @jinnatan 15:04
+The session is really helpful. Thanks for the great session
+
+Lime @limedss 15:05
+excellent efforts for organising this. :clap:
+
+manjeet88 @manjeet88 15:05
+@crichID thanks 
+
+Ke Ma @ankermarco 15:05
+@crichID great! thanks so much and have no more questions 
+
+Cynthia Rich @crichID 15:05
+@limedss @manjeet88 thank you!
+
+Hector Alfaro @halfaro1 15:05
+ for this weekend: Game of Thrones and Git. You know nothing, John Snow.
+
+atulsingh008 @atulsingh008 15:06
++1
+
+manjeet88 @manjeet88 15:06
+@halfaro1  
+
+Briana Swift @brianamarie 15:06
+This room is no longer active. Please visit https://training.github.com/, https://help.github.com/, or email services@github.com with further questions.
+You will be sent a recording of the classes soon. Register for other courses here!
+
+Igor Sobot @Igor-Shampion 15:06
+good work, THANK you
+
+Briana Swift @brianamarie 15:06
+ Thanks everybody!  
+
+Kartiki Joshi @kartikijoshi 15:07
+@crichID @halfaro1 @brianamarie .. Thank you so much guys. You all are amazing. Thanks for the knowledge 
